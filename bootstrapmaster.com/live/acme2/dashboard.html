@@ -20,6 +20,7 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/style.min.css" rel="stylesheet">
 	<link href="assets/css/retina.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/daterangepicker.css" type="text/css"/>
 	<!-- end: CSS -->
 
@@ -98,8 +99,22 @@
 								<div class="col-sm-6">
 									<input type="text" id="reportrange" style="border-top:none;border-left:none"></input>
 								</div>
+								<div class="col-sm-3">
+									<button class="btn btn-success">Search</button>
+									<button class="btn btn-primary" style="float:right">Clear all filters</button>
+								</div>
 							</div>
-							<a></a>
+							<div id="content_header" class="col-sm-12">
+								<ul id="list_" class="nav nav-tabs">
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="#">Menu 2</a></li>
+									<li><a href="#">Menu 3</a></li>
+
+									<li><a id="home_">Orders</a></li>
+									<li><a id="payment_">Payments</a></li>
+									<li><a id="topproduct_">Top Products</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 			</div>	
@@ -186,6 +201,16 @@
 	<!-- end: JavaScript-->
 	<script>
 		$(document).ready(function () {
+		/*	$("#list_ > li > a").click(function(){
+				var id2 = $(this);
+				get_node = id2.parent().addClass("content_list");
+				var get_id = $(id2).attr('id');
+				var fistchild_id = $("#list_").children().children().first().attr('id');
+				if($('.content_list').length > 0){
+						$('.content_list').not(get_node).removeClass('content_list');
+						$("#list_").children().first().removeClass('content_list');
+					}
+			});*/
 			$('#reportrange').daterangepicker({
 					startDate: moment().subtract('days', 29),
 					endDate: moment(),
