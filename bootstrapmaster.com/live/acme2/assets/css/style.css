@@ -16,3 +16,20 @@
 	cursor:pointer;
 	
 }
+#title{
+	color: #97A4A9;
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: "Proxima Nova";
+	margin: 0px;
+	padding: 10px 0px 28px;
+}
+.pantextbox{
+	background-color: #FFF;
+	box-shadow: none;
+	padding: 14px 31px 14px 15px;
+	border: 1px solid #CDDADF;
+	height: auto;
+	font-size: 14px;
+	color: #606060;
+}
