@@ -68,6 +68,12 @@
             </div>
          </div>
       </div>
+	  <div class="container" style="margin-bottom: -1.8%;">
+		<div class="row">
+		<img src="assets/img/paypal2.png" style="height:35px;margin-top: -7%;margin-left: -12px;"></img>
+		</div>
+	  </div>s
+
       <!-- start: Header -->
       <div class="container">
          <div class="row">
@@ -204,30 +210,32 @@
 									  <th>SKU</th>
 									  <th>Product Name</th>
 									  <th>Product Quantity</th>
+
 									  <th>Status</th>
 								  </tr>
-							  </thead> 
-							 <tbody>
-									<tr>
+							  </thead>   
+							  <tbody>
+								<tr>
 									<td>1</td>
 									<td class="center">ssss</td>
 									<td class="center">apple mobile</td>
-									<td class="center">4</td>
+									<td class="center">3</td>
 									<td class="center">
 										<span class="label label-success">Active</span>
 									</td>
-									</tr>
-									<tr>
+								</tr>
+								<tr>
 									<td>2</td>
-									<td class="center">ssss</td>
+									<td class="center">sss</td>
 									<td class="center">Samsung mobile</td>
-									<td class="center">4</td>
+									<td class="center">3</td>
 									<td class="center">
 										<span class="label label-success">Active</span>
 									</td>
-									</tr>
-							</tbody>
-					  </div>
+								</tr>
+							  </tbody>
+						</table>
+						</div>
                   </div>
                </div>
                <!--/row-->
@@ -251,56 +259,100 @@
 							</span>
 						</div>
 					</div>
-					<div class="row" style="background:#FAF8FB; margin:0px;padding:10px; border-bottom:2px solid #EEE">
-						   <div class="col-sm-12">
-								<div class="form-group">
-									<div class="controls">
-										<div class="col-md-10"><p>Or, do you want to search your own catalog and add a new variant to an existing group of products?</p></div>
-											<div class="col-md-1 col-sm-2 col-xs-3">
-												<label class="switch">
-												  <input type="checkbox" class="switch-input">
-												  <span class="switch-label" data-on="On" data-off="Off"></span>
-												  <span class="switch-handle"></span>
-												</label>
-											</div>
-										</div>
+			<div class="row" style="background:#FAF8FB; margin:0px;padding:10px; border-bottom:2px solid #EEE">
+				   <div class="col-sm-12">
+						<div class="form-group">
+							<div class="controls">
+								<div class="col-md-10"><p>Or, do you want to search your own catalog and add a new variant to an existing group of products?</p></div>
+									<div class="col-md-1 col-sm-2 col-xs-3">
+										<label class="switch">
+										  <input type="checkbox" class="switch-input">
+										  <span class="switch-label" data-on="Yes" data-off="No"></span>
+										  <span class="switch-handle"></span>
+										</label>
+									</div>
 								</div>
-							</div>
-							<br/><br/>
-							<div class="col-sm-12">
-								<div class="form-group">
-									<div class="controls">
-										<div class="col-md-3"><p>Can't find your product? Create afresh.</p></div>
-										<div class="col-md-2"><button class="btn btn-primary" type="submit">Create Now</button></div>	
-										</div>
-								</div>
-							</div>
+						</div>
 					</div>
-					 <div class="col-xs-12">
-                     <div class="row" style="background:#FAF8FB; padding:0px; border-bottom: 2px solid #EEE;">
-                        <div class="col-md-6" >
-                           <div class="box">
-                              <div class=" pull-left">
-                                 <ul class="nav tab-menu nav-tabs" id="myTab">
-                                    <li class="active common" id="Stockout"><a href="ui-elements.html#info">Out of Stock</a></li>
-                                    <li class="common" id="Stockin"><a href="ui-elements.html#custom">Stock In</a></li>
-                                    <li class="common" id="All"><a href="ui-elements.html#messages">All</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-6 pull-right" >
-                           <div class="box">
-                              <div class=" pull-right">
-                                 <ul class="nav tab-menu nav-tabs" id="myTab">
-                                    <li class="active" id="Newproduct"><a href="ui-elements.html#info">Add New Product</a></li>
-                                    <li class="common" id="check"><a href="ui-elements.html#custom">Check Status</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
+				<div class="col-sm-12" id="clickYes" style="display:none;">
+					<div class="col-xs-12">
+						<div class="row" style="background:#FAF8FB; padding:0px; ">
+								<div class="col-sm-12">
+								   <div>Search By</div>
+								   <div class="col-md-4 col-md-offset-2">
+									  <div class="form-group">
+										 <input type="email" class="form-control" id="Product Name" placeholder="Product Name">
+									  </div>
+									  <div class="form-group">
+										 <input type="password" class="form-control" id="Product Id" placeholder="Product Id">
+									  </div>
+									  <div class="form-group">
+										 <div class="text-center">
+											<input type="password" class="form-control" id="category" placeholder="Category">
+										 </div>
+									  </div>
+								   </div>
+								   <div class="col-md-4">
+									  <div class="form-group">
+										 <select class="form-control" id="sel1" >
+											<option>Select Status</option>
+											<option>Active</option>
+											<option>Inactive</option>
+										 </select>
+									  </div>
+									  <div class="form-group">
+										 <input type="password" class="form-control" id="paypal SKU" placeholder="PayPal SKU">
+									  </div>
+									  <div class="form-group">
+										 <div class="text-center">
+											<input type="password" class="form-control" id="merchant sku" placeholder="Merchant SKU">
+										 </div>
+									  </div>
+									  
+								   </div>
+								   <span class="pull-right">
+										<button class="btn btn-success" type="submit">Search</button>
+										<button class="btn btn-success" type="submit">Clear</button>
+									</span>
+							</div>
+						</div>
+					</div>
+				</div>
+					<br/><br/>
+					<div class="col-sm-12">
+						<div class="form-group">
+							<div class="controls">
+								<div class="col-md-3"><p>Can't find your product? Create afresh.</p></div>
+								<div class="col-md-2"><button class="btn btn-primary" type="submit">Create Now</button></div>	
+							</div>
+						</div>
+					</div>
+			</div>
+				 <div class="col-xs-12">
+				 <div class="row" style="background:#FAF8FB; padding:0px; border-bottom: 2px solid #EEE;">
+					<div class="col-md-6" >
+					   <div class="box">
+						  <div class=" pull-left">
+							 <ul class="nav tab-menu nav-tabs" id="myTab">
+								<li class="active common" id="Stockout"><a href="ui-elements.html#info">Out of Stock</a></li>
+								<li class="common" id="Stockin"><a href="ui-elements.html#custom">Stock In</a></li>
+								<li class="common" id="All"><a href="ui-elements.html#messages">All</a></li>
+							 </ul>
+						  </div>
+					   </div>
+					</div>
+					<div class="col-md-6 pull-right" >
+					   <div class="box">
+						  <div class=" pull-right">
+							 <ul class="nav tab-menu nav-tabs" id="myTab">
+								<li class="active" id="Newproduct"><a href="ui-elements.html#info">Add New Product</a></li>
+								<li class="common" id="check"><a href="ui-elements.html#custom">Check Status</a></li>
+							 </ul>
+						  </div>
+					   </div>
+					</div>
+				 </div>
+                     <!--<div class="row">
                         <div id="myTabContent" class="tab-content">
                            <div class="tab-pane active" id="Stockout">
                               <p>
@@ -321,7 +373,7 @@
                               </p>
                            </div>
                         </div>
-                     </div>
+                     </div>-->
                   </div>
             </div>
             <!-- end: Content -->
@@ -335,10 +387,12 @@
                </ul>
             </div>
             <!-- end: Widgets Area -->
-         </div>
+        
          <!--/row-->
+     
       </div>
-      <!--/container-->
+	  </div>
+	  <!--/container-->
       <div class="clearfix"></div>
       <!-- start: JavaScript-->
       <!--[if !IE]>-->
@@ -389,6 +443,9 @@
 			$('.common').click(function(){
 				$('#addnewproduct').hide();
 				$('#catalog').show();
+			});
+			$('.switch-input').click(function(){
+				$('#clickYes').slideToggle();
 			});
 		});
 	  </script>
