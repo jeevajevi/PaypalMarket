@@ -338,7 +338,7 @@
 																		
 																			<div class="col-md-3">
 																				<i class="fa fa-credit-card" style="padding: 4%;"></i>
-																				<label>PANNumber</label>
+																				<label class="labelcolor">PANNumber</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="text" class="pantextbox"></input>
@@ -349,7 +349,7 @@
 																		
 																			<div class="col-md-3">
 																				<i class="fa fa-upload"></i>
-																				<label>UPload PAN Image</label>
+																				<label class="labelcolor">UPload PAN Image</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="file" class="pantextbox"></input>
@@ -379,7 +379,7 @@
 																	<div class="row">
 																		<div class="col-lg-4">
 																			<i class="fa fa-university" style="padding: 4%;"></i>
-																			<label>Account Number</label>
+																			<label class="labelcolor">Account Number</label>
 																		</div>
 																		<div class="col-lg-2">
 																			<input type="text" class="pantextbox"></input>
@@ -390,7 +390,7 @@
 																	<div class="row">
 																		<div class="col-md-3">
 																			<i class="fa fa-upload"></i>
-																			<label>UPload Cancelled Cheque</label>
+																			<label class="labelcolor">UPload Cancelled Cheque</label>
 																		</div>
 																		<div class="col-md-3">
 																			<input type="file" class="pantextbox"></input>
@@ -398,11 +398,24 @@
 																	</div>
 																</div>
 																<div class="col-md-12">
-																<div class="col-md-6">
+																	<div class="col-md-6">
+																		<div class="row">
+																			<div class="col-md-4">
+																				
+																				<label class="labelcolor">Benificiary Name</label>
+																			</div>
+																			<div class="col-md-2">
+																				<input type="text" class="pantextbox"></input>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-12">
+																<div class="col-md-6" style="margin-top: 2%;">
 																	<div class="row">
 																		<div class="col-md-4">
-																			<i class="fa fa-university" style="padding: 4%;"></i>
-																			<label>Benificiary Name</label>
+																			
+																			<label class="labelcolor">Bank Name</label>
 																		</div>
 																		<div class="col-md-2">
 																			<input type="text" class="pantextbox"></input>
@@ -414,21 +427,8 @@
 																<div class="col-md-6" style="margin-top: 2%;">
 																	<div class="row">
 																		<div class="col-md-4">
-																			<i class="fa fa-university" style="padding: 4%;"></i>
-																			<label>Bank Name</label>
-																		</div>
-																		<div class="col-md-2">
-																			<input type="text" class="pantextbox"></input>
-																		</div>
-																	</div>
-																</div>
-																</div>
-																<div class="col-md-12">
-																<div class="col-md-6" style="margin-top: 2%;">
-																	<div class="row">
-																		<div class="col-md-4">
-																			<i class="fa fa-university" style="padding: 4%;"></i>
-																			<label>Bank Branch Name</label>
+																			
+																			<label class="labelcolor">Bank Branch Name</label>
 																		</div>
 																		<div class="col-md-2">
 																			<input type="text" class="pantextbox"></input>
@@ -440,8 +440,7 @@
 																	<div class="col-md-6" style="margin-top: 2%;">
 																		<div class="row">
 																			<div class="col-md-4">
-																				<i class="fa fa-university" style="padding: 4%;"></i>
-																				<label>Bank IFSC Code</label>
+																				<label class="labelcolor">Bank IFSC Code</label>
 																			</div>
 																			<div class="col-md-2">
 																				<input type="text" class="pantextbox"></input>
@@ -476,11 +475,11 @@
 
 																</div>
 																<div class="col-md-12" id="declartionformupload">
-																	<div class="col-md-12">
+																	<div class="col-md-12" style="margin-top: 2%">
 																		<div class="row">
 																			<p>No problem, you can become a seller by submitting a self declaration. Please follow steps listed below</p>
 																		</div>
-																		<div class="row">
+																		<div class="row" style="margin-top: 2%">
 																			<div class="col-md-2">
 																				<p>Step 1</p>
 																			</div> 
@@ -510,36 +509,36 @@
 																			<div class="col-md-3">
 																				<p>Upload Picture of dully filled form</p>
 																			</div> 
-																			<div class="">
-																				<div class="col-md-3 ">
+																		
+																				<div class="col-md-2">
 																					<i class="fa fa-upload"></i>
-																					<label>UPload Self Declaration</label>
+																					<label class="labelcolor">UPload Self Declaration</label>
 																				</div>
-																				<div class="col-md-3" style="margin-top: -2%;">
-																					<input type="file" class="pantextbox"></input>
+																				<div class="col-md-3">
+																					<input type="file" class="pantextbox" style="margin-top: -10%;"></input>
 																				</div>
 																		
-																			</div>
+																	
 																		</div>
 																	</div>
 																</div>
-																<div class="col-md-12" id="vatupload" style="display:none;">
+																<div class="col-md-12" id="vatupload" style="display:none;margin-top: 2%">
 																	<div class="row">
 																		<div class="row">
 																			<div class="col-md-12">
 																				<p style="color: #8A6D3B;">VAT/TIN image should be attested(signed and stamped) by authorized signatory of business</p>
 																			</div>
 																		</div>
-																		<div class="row"  style="border-bottom: 1px solid #CDDADF;">
+																		<div class="row" style="margin-top: 2%;margin-bottom: 1%;">
 																			<div class="col-md-2">
-																				<p>VAT/TIN of Merchant</p>
+																				<label class="labelcolor">VAT/TIN of Merchant</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="text" class="pantextbox"></input>
 																			</div>
 																			<div class="col-md-2">
 																				<i class="fa fa-upload"></i>
-																				<p>Upoad VAT/TIN</p>
+																				<label class="labelcolor">Upoad VAT/TIN</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="file" class="pantextbox"></input>
@@ -549,62 +548,57 @@
 																</div>
 															</div>
 														</div>
-																	<div class="row"  style="margin-left:2%;border-bottom: 1px solid #CDDADF;">
+														<div class="row"  style="margin-left:2%;border-bottom: 1px solid #CDDADF;">
+													
+																<div class="col-md-12">
+																	<h2 id="title" style="text-align: left;">Address Proof </h2>
+																</div>
 																
-																			<div class="col-md-12">
-																				<h2 id="title" style="text-align: left;">Address Proof </h2>
-																			</div>
-																			
-																			<div class="large-12 columns">
-																				<ul style=" font-size: 14px;list-style: none; margin-left: 0;">
-																					<li style="color: #8A6D3B;">Please upload address proof of registered business address.</li>
-																					<li style="color: #8A6D3B;">Address Proof Image should be attested (signed and stamped) by authorized signatory of business</li>
-																				</ul>
+																<div class="col-md-12">
+																	<ul style=" font-size: 14px;list-style: none; margin-left: 0;">
+																		<li style="color: #8A6D3B;">Please upload address proof of registered business address.</li>
+																		<li style="color: #8A6D3B;">Address Proof Image should be attested (signed and stamped) by authorized signatory of business</li>
+																	</ul>
 
-																			</div>
-																			<div class="col-md-6">
-																				<div class="row">
-																					<div class="col-md-3">
-																						<i class="fa fa-home" style="padding: 4%;"></i>
-																						<label>Address Proof</label>
-																					</div>
-																					<div class="col-md-3">
-																						<select>
-																							<option value="Electricity Bill"> Electricity Bill</option>
-																							<option value="Bank Statement"> Bank Statement</option>
-																							<option value="Aadhar Card"> Aadhar Card</option>
-																							<option value="Rent Agreement">Rent Agreement</option>
-																							<option value="Certificate of Incorporation">Certificate of Incorporation</option>
-																							<option value="Partnership Deed">Partnership Deed</option>
-																							<option value="Others">Others</option>
-																						</select>
+																</div>
+																<div class="col-md-6">
+																	<div class="row">
+																		<div class="col-md-3">
+																			<i class="fa fa-home" style="padding: 4%;"></i>
+																			<label class="labelcolor">Address Proof</label>
+																		</div>
+																		<div class="col-md-3">
+																			<select>
+																				<option value="Electricity Bill"> Electricity Bill</option>
+																				<option value="Bank Statement"> Bank Statement</option>
+																				<option value="Aadhar Card"> Aadhar Card</option>
+																				<option value="Rent Agreement">Rent Agreement</option>
+																				<option value="Certificate of Incorporation">Certificate of Incorporation</option>
+																				<option value="Partnership Deed">Partnership Deed</option>
+																				<option value="Others">Others</option>
+																			</select>
 
-																					</div>
-																				</div>
-																			</div>
-																			<div class="col-md-6">
-																				<div class="row">
-																					<div class="col-md-3">
-																						<i class="fa fa-upload"></i>
-																						<label>UPload Address Proof</label>
-																					</div>
-																					<div class="col-md-3">
-																						<input type="file" class="pantextbox"></input>
-																					</div>
-																				</div>
-																			</div>
-															
-																	</div>
-																	<div class="row" style="margin-left:2%">
-																		<div class="col-md-12">
-																			<button value="SUBMIT" class="center-block btn btn-primary">SUBMIT</button>
 																		</div>
 																	</div>
-																
-																
-															
-													
-							
+																</div>
+																<div class="col-md-6">
+																	<div class="row">
+																		<div class="col-md-3">
+																			<i class="fa fa-upload"></i>
+																			<label class="labelcolor">UPload Address Proof</label>
+																		</div>
+																		<div class="col-md-3">
+																			<input type="file" class="pantextbox"></input>
+																		</div>
+																	</div>
+																</div>
+												
+														</div>
+														<div class="row" style="margin-left:2%; margin-top:2%">
+															<div class="col-md-12">
+																<button value="SUBMIT" style="width: 25%;" class="center-block btn btn-primary">SUBMIT</button>
+															</div>
+														</div>
 											</div>
 										</div>
 										<div class="tab-pane" id="messages">
