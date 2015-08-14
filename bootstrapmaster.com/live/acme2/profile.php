@@ -6,7 +6,7 @@
 	
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>ACME Dashboard - Perfect Bootstrap Admin Template</title>
+	<title>Paypal -Marketing</title>
 	<meta name="description" content="ACME Dashboard Bootstrap Admin Template.">
 	<meta name="author" content="Łukasz Holeczek">
 	<meta name="keyword" content="ACME, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
@@ -50,26 +50,12 @@
 
 <body>
 		<!-- start: Header -->
-	<div class="navbar">
-		<div class="navbar-inner">
-			<div class="container" style="padding-top: 14px;">
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".sidebar-nav.nav-collapse">
-				      <span class="icon-bar"></span>
-				      <span class="icon-bar"></span>
-				      <span class="icon-bar"></span>
-				</button>
-				<div class="pull-right">
-					<a href="#" style="color: #FFF !important;text-decoration: underline;">Seller Training Centre</a>
-				</div>
-			</div>
-			
-		</div>
-	</div>
+	<?php include("topnavbar.php"); ?>
 	<!-- start: Header -->
 
 		<div class="container" style="margin-bottom: -1.8%;">
 			<div class="row">
-				<img src="assets/images/paypallogo.jpg" style="height:35px;margin-top: -7%;margin-left: -12px;"></img>
+				<img src="assets/img/paypal4.png" style="height:50px;margin-top: -7%;margin-left: -12px;"></img>
 			</div>
 		</div>
 
@@ -78,18 +64,8 @@
 
 				
 			<!-- start: Main Menu -->
-			<div id="sidebar-left" class="col-sm-1">
-				<div class="nav-collapse sidebar-nav collapse navbar-collapse bs-navbar-collapse">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li><a href="dashboard.html"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm"> Dashboard</span></a></li>	
-						<li><a href="widgets.html"><i class="fa fa-dashboard"></i><span class="hidden-sm"> Orders</span></a></li>
-						<li><a href="login.html"><i class="fa fa-lock"></i><span class="hidden-sm"> Catalog</span></a></li>
-						<li><a href="index-2.html"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm"> Payments</span></a></li>	
-						<li><a href="widgets.html"><i class="fa fa-dashboard"></i><span class="hidden-sm"> Returns</span></a></li>
-						<li><a href="login.html"><i class="fa fa-lock"></i><span class="hidden-sm">Annoucements</span></a></li>
-					</ul>
-				</div>
-			</div>
+			<?php include("sidebar.php"); ?>
+		
 		
 			<!-- end: Main Menu -->
 
@@ -112,66 +88,61 @@
 								<div class="row">
 									<div id="myTabContent" class="tab-content">
 										<div class="tab-pane active" id="profile">
-											<div class="row">
+											<div class="row" style="margin-top:2%">
 												<form class="form-horizontal">
 													<fieldset>
 
-													<!-- Form Name -->
-													<legend>Basic Details</legend>
+															<!-- Form Name -->
+															<legend>Basic Details</legend>
 
-													<!-- Text input-->
-													<div class="form-group">
-													  <label class="col-md-4 control-label" for="">Merchant ID</label>  
-													  <div class="col-md-4">
-													  <input id="" name="" placeholder="Merchant ID" class="form-control input-md" type="text">
-														
-													  </div>
-													</div>
+															<!-- Text input-->
+															<div class="form-group">
+																<label class="col-md-4 control-label" for="">Merchant ID</label>  
+																<div class="col-md-4">
+																	<input id="" name="" placeholder="Merchant ID" class="form-control input-md" type="text">
+																</div>
+															</div>
 
-													<!-- Text input-->
-													<div class="form-group">
-													  <label class="col-md-4 control-label" for="">Name</label>  
-													  <div class="col-md-4">
-													  <input id="" name="" placeholder="Merchant Name" class="form-control input-md" type="text">
-														
-													  </div>
-													</div>
+															<!-- Text input-->
+															<div class="form-group">
+																<label class="col-md-4 control-label" for="">Name</label>  
+																<div class="col-md-4">
+																	<input id="" name="" placeholder="Merchant Name" class="form-control input-md" type="text">
+																</div>
+															</div>
 
-													<!-- Text input-->
-													<div class="form-group">
-													  <label class="col-md-4 control-label" for="">Store/Company Name</label>  
-													  <div class="col-md-4">
-													  <input id="" name="" placeholder="Store/Company Name" class="form-control input-md" type="text">
-														
-													  </div>
-													</div>
+															<!-- Text input-->
+															<div class="form-group">
+																<label class="col-md-4 control-label" for="">Store/Company Name</label>  
+																<div class="col-md-4">
+																	<input id="" name="" placeholder="Store/Company Name" class="form-control input-md" type="text">
+																</div>
+															</div>
 
-													<!-- Text input-->
-													<div class="form-group">
-													  <label class="col-md-4 control-label" for="">Email ID</label>  
-													  <div class="col-md-4">
-													  <input id="" name="" placeholder="Email ID" class="form-control input-md" type="text">
-														
-													  </div>
-													</div>
+															<!-- Text input-->
+															<div class="form-group">
+																<label class="col-md-4 control-label" for="">Email ID</label>  
+																<div class="col-md-4">
+																	<input id="" name="" placeholder="Email ID" class="form-control input-md" type="text">
+																</div>
+															</div>
 
-													<!-- Text input-->
-													<div class="form-group">
-													  <label class="col-md-4 control-label" for="">Mobile Number</label>  
-													  <div class="col-md-4">
-													  <input id="" name="" placeholder="Mobile Number" class="form-control input-md" type="text">
-														
-													  </div>
-													</div>
+															<!-- Text input-->
+															<div class="form-group">
+															  <label class="col-md-4 control-label" for="">Mobile Number</label>  
+															  <div class="col-md-4">
+															  <input id="" name="" placeholder="Mobile Number" class="form-control input-md" type="text">
+																
+															  </div>
+															</div>
 
-													<!-- Text input-->
-													<div class="form-group">
-													  <label class="col-md-4 control-label" for="">Landline Number</label>  
-													  <div class="col-md-4">
-													  <input id="" name="" placeholder="Landline Number" class="form-control input-md" type="text">
-														
-													  </div>
-													</div>
+															<!-- Text input-->
+															<div class="form-group">
+																<label class="col-md-4 control-label" for="">Landline Number</label>  
+																<div class="col-md-4">
+																	<input id="" name="" placeholder="Landline Number" class="form-control input-md" type="text">
+																</div>
+															</div>
 
 													</fieldset>
 												</form>
@@ -318,12 +289,12 @@
 											<div class="col-md-12">
 												<div class="row">
 														<div class="row">
-															<h3 class="center" id="title" style="margin-top:20px;text-align: center;"><b style="color: #373792;;">Document Status -</b><b style="color: skyblue;"> Documents Not Uploaded</b></h3>
+															<h3 class="center" id="title" style="margin-top:20px;text-align: center;"><b>Document Status - Documents Not Uploaded</b></h3>
 														</div>
 														<div class="row" style="margin-left:2%;border-bottom: 1px solid #CDDADF;">
 															<form class="form-group">
 																<div class="col-md-12">
-																	<h2 id="title" style="text-align: left;color:skyblue">PAN Details </h2>
+																	<h2 id="title" style="text-align: left;">PAN Details </h2>
 																</div>
 																
 																<div class="col-md-12 ">
@@ -338,7 +309,7 @@
 																		
 																			<div class="col-md-3">
 																				<i class="fa fa-credit-card" style="padding: 4%;"></i>
-																				<label class="labelcolor">PANNumber</label>
+																				<label>PANNumber</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="text" class="pantextbox"></input>
@@ -349,7 +320,7 @@
 																		
 																			<div class="col-md-3">
 																				<i class="fa fa-upload"></i>
-																				<label class="labelcolor">UPload PAN Image</label>
+																				<label>UPload PAN Image</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="file" class="pantextbox"></input>
@@ -379,7 +350,7 @@
 																	<div class="row">
 																		<div class="col-lg-4">
 																			<i class="fa fa-university" style="padding: 4%;"></i>
-																			<label class="labelcolor">Account Number</label>
+																			<label>Account Number</label>
 																		</div>
 																		<div class="col-lg-2">
 																			<input type="text" class="pantextbox"></input>
@@ -390,7 +361,7 @@
 																	<div class="row">
 																		<div class="col-md-3">
 																			<i class="fa fa-upload"></i>
-																			<label class="labelcolor">UPload Cancelled Cheque</label>
+																			<label>UPload Cancelled Cheque</label>
 																		</div>
 																		<div class="col-md-3">
 																			<input type="file" class="pantextbox"></input>
@@ -402,7 +373,7 @@
 																		<div class="row">
 																			<div class="col-md-4">
 																				
-																				<label class="labelcolor">Benificiary Name</label>
+																				<label>Benificiary Name</label>
 																			</div>
 																			<div class="col-md-2">
 																				<input type="text" class="pantextbox"></input>
@@ -415,7 +386,7 @@
 																	<div class="row">
 																		<div class="col-md-4">
 																			
-																			<label class="labelcolor">Bank Name</label>
+																			<label>Bank Name</label>
 																		</div>
 																		<div class="col-md-2">
 																			<input type="text" class="pantextbox"></input>
@@ -428,7 +399,7 @@
 																	<div class="row">
 																		<div class="col-md-4">
 																			
-																			<label class="labelcolor">Bank Branch Name</label>
+																			<label>Bank Branch Name</label>
 																		</div>
 																		<div class="col-md-2">
 																			<input type="text" class="pantextbox"></input>
@@ -440,7 +411,7 @@
 																	<div class="col-md-6" style="margin-top: 2%;">
 																		<div class="row">
 																			<div class="col-md-4">
-																				<label class="labelcolor">Bank IFSC Code</label>
+																				<label>Bank IFSC Code</label>
 																			</div>
 																			<div class="col-md-2">
 																				<input type="text" class="pantextbox"></input>
@@ -496,7 +467,7 @@
 																			<div class="col-md-2">
 																				<p>Step 2</p>
 																			</div> 
-																			<div class="col-md-3">
+																			<div class="col-md-5">
 																				<p>Print the form on company letter head, fill it as per instructions and don't forget to sign and stamp it.</p>
 																			</div> 
 																		</div>
@@ -512,7 +483,7 @@
 																		
 																				<div class="col-md-2">
 																					<i class="fa fa-upload"></i>
-																					<label class="labelcolor">UPload Self Declaration</label>
+																					<label>UPload Self Declaration</label>
 																				</div>
 																				<div class="col-md-3">
 																					<input type="file" class="pantextbox" style="margin-top: -10%;"></input>
@@ -531,14 +502,14 @@
 																		</div>
 																		<div class="row" style="margin-top: 2%;margin-bottom: 1%;">
 																			<div class="col-md-2">
-																				<label class="labelcolor">VAT/TIN of Merchant</label>
+																				<label>VAT/TIN of Merchant</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="text" class="pantextbox"></input>
 																			</div>
 																			<div class="col-md-2">
 																				<i class="fa fa-upload"></i>
-																				<label class="labelcolor">Upoad VAT/TIN</label>
+																				<label>Upoad VAT/TIN</label>
 																			</div>
 																			<div class="col-md-3">
 																				<input type="file" class="pantextbox"></input>
@@ -565,7 +536,7 @@
 																	<div class="row">
 																		<div class="col-md-3">
 																			<i class="fa fa-home" style="padding: 4%;"></i>
-																			<label class="labelcolor">Address Proof</label>
+																			<label>Address Proof</label>
 																		</div>
 																		<div class="col-md-3">
 																			<select>
@@ -585,7 +556,7 @@
 																	<div class="row">
 																		<div class="col-md-3">
 																			<i class="fa fa-upload"></i>
-																			<label class="labelcolor">UPload Address Proof</label>
+																			<label>UPload Address Proof</label>
 																		</div>
 																		<div class="col-md-3">
 																			<input type="file" class="pantextbox"></input>
@@ -599,6 +570,7 @@
 																<button value="SUBMIT" style="width: 25%;" class="center-block btn btn-primary">SUBMIT</button>
 															</div>
 														</div>
+														<div class="row" style="margin-left:2%; margin-top:2%"></div>
 											</div>
 										</div>
 										<div class="tab-pane" id="messages">

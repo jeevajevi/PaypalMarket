@@ -50,44 +50,19 @@
 
 <body>
 		<!-- start: Header -->
-	<div class="navbar">
-		<div class="navbar-inner">
-			<div class="container" style="padding-top: 14px;">
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".sidebar-nav.nav-collapse">
-				      <span class="icon-bar"></span>
-				      <span class="icon-bar"></span>
-				      <span class="icon-bar"></span>
-				</button>
-				<div class="pull-right">
-					<a href="#" style="color: #FFF !important;text-decoration: underline;">Seller Training Centre</a>
-				</div>
-			</div>
-			
-		</div>
-	</div>
+	<?php include("topnavbar.php"); ?>
 	<!-- start: Header -->
 
 		<div class="container" style="margin-bottom: -1.8%;">
 			<div class="row">
-				<img src="assets/images/paypallogo.jpg" style="height:35px;margin-top: -7%;margin-left: -12px;"></img>
+				<img src="assets/img/paypal4.png" style="height:50px;margin-top: -7%;margin-left: -12px;"></img>
 			</div>
 		</div>
 
 	<div class="container">
 		<div class="row">
 			<!-- start: Main Menu -->
-			<div id="sidebar-left" class="col-sm-1">
-				<div class="nav-collapse sidebar-nav collapse navbar-collapse bs-navbar-collapse">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li><a href="dashboard.html"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm"> Dashboard</span></a></li>	
-						<li><a href="widgets.html"><i class="fa fa-dashboard"></i><span class="hidden-sm"> Orders</span></a></li>
-						<li><a href="login.html"><i class="fa fa-lock"></i><span class="hidden-sm"> Catalog</span></a></li>
-						<li><a href="index-2.html"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm"> Payments</span></a></li>	
-						<li><a href="widgets.html"><i class="fa fa-dashboard"></i><span class="hidden-sm"> Returns</span></a></li>
-						<li><a href="login.html"><i class="fa fa-lock"></i><span class="hidden-sm">Annoucements</span></a></li>
-					</ul>
-				</div>
-			</div>
+			<?php include("sidebar.php"); ?>
 		
 			<!-- end: Main Menu -->
 
