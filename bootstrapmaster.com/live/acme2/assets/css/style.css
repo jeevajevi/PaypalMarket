@@ -1,8 +1,18 @@
-
+#conten_header{
+	
+}
 #content_header > ul > li{
 	float: right;
 	margin-left: 28px;	
 	list-style-type: none;
 	cursor:pointer;
 }
-
+.datepickerbox{
+	border-top: medium none;
+	border-left: medium none;
+	height: 38px;
+	width: 100%;
+	text-align: center;
+	cursor:pointer;
+	
+}
