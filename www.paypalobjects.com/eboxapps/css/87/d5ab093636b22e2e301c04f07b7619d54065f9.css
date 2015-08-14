@@ -1,0 +1,27 @@
+.hero-bg, .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/hero-images/pci-compliance_bg_hero-1x.jpg");
+}
+.n1, .n1.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/feature-images/pci-compliance_n1_1x.jpg");
+}
+.n2 {
+    background-image: url("../../../webstatic/en_IN/mktg/feature-images/pci-compliance_n3_1x.jpg");
+}
+
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/feature-images/pci-compliance_n2_1x.jpg");
+}
+
+html[data-device-type="mobile"] .pullout {
+text-aligndedicated;
+}
+
+html[data-device-type="dedicated"] .pulloutPara {
+width: 123%;
+margin-left: -9%;
+}
+html[data-device-type="portable"] .pulloutPara {
+width: 116%;
+
+}
+

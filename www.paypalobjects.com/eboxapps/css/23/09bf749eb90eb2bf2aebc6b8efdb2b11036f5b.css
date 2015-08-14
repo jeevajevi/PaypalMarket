@@ -1,0 +1,55 @@
+/* /US/en/paypal-fees/resources/css/page.css */
+.box {
+    padding:60px 0
+}
+.box:last-child {
+    border-bottom:0
+}
+.box p {
+    padding:15px 2% 0 0
+}
+.row-fluid+.row-fluid {
+    margin-top:25px
+}
+/* meh */
+ .containerCentered .span5 {
+    padding-right: 2%;
+}
+table {
+    width:100%
+}
+tr {
+    border-bottom:1px solid #e5e5e5
+}
+tr:last-child {
+    border-bottom:0
+}
+th, td {
+    padding: 15px 0;
+    font-size: 15px;
+    font-size: 1.071rem;
+    line-height: 1.5em;
+    vertical-align: top;
+}
+th {
+    padding-left: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+.row-fluid .heroBtn {
+    margin-left: 34%;
+}
+html[data-device-type="portable"] .row-fluid .heroBtn {
+    margin-left: 33%;
+} 
+html[data-device-type="dedicated"] tbody, html[data-device-type="portable"] tbody {
+    border-left: 1px solid #e5e5e5;
+}
+html[data-device-type="mobile"] th {
+    padding-left: 0;
+}
+/* overwrite float for table */
+ html[data-device-type="mobile"] .containerMobileFullWidth .row-fluid th, html[data-device-type="mobile"] .containerMobileFullWidth .row-fluid td {
+    float: left;
+}
+

@@ -1,0 +1,259 @@
+/* IN/en/paypal-seller-protection/resources/css/page.css */
+.hero-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/hero-images/seller_protection_hero_bg_1x.jpg");
+}
+
+section {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+#more-than-payments-container {
+    padding: 60px 0;
+}
+#more-than-payments {
+    margin-top: 30px;
+}
+
+
+.merchant-links-panel {
+    padding: 20px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.merchant-links-panel .span6 {
+    line-height: 40px;
+}
+.light .span3.merchant-panel {
+    border-color: #fff;
+}
+.merchant-links-panel .btn {
+    line-height: 1.8em;
+    min-width: 235px;
+    opacity: 0;
+    margin-top: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+html[data-device-type="portable"] .merchant-links-panel .btn {
+    -webkit-transition: all 0 ease 0;
+    transition: all 0 ease 0;
+}
+
+.row-fluid .merchant-panel {
+    background: #fff;
+    padding: 30px 16px;
+    border: 1px solid;
+    border-color: #E5E5E5 #D9D9D9 #CCC;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+    overflow: hidden;
+}
+
+#more-than-payments .merchant-panel .contentPara {
+    min-height: 70px;
+}
+.panel-img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+ul.organizedList li {
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+html[data-device-type="mobile"] .panel-img {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 71.71428571428571em) {
+    .chart-bgcolor h3 {
+        white-space: normal;
+    }
+}
+
+html[data-device-type="portable"] .merchant-links-panel, html[data-device-type="mobile"] .merchant-links-panel {
+    background: #f4f4f4;
+    padding: 16px 0;
+}
+html[data-device-type="portable"] .hero-bg {
+    background-position: center center;
+    background-size: cover;
+}
+
+
+html[data-device-type="mobile"] h1 {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+    padding-top: 295px;
+
+}
+
+html[data-device-type="mobile"] .hero-bg .editorial-cell {
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+html[data-device-type="portable"] #get-started, html[data-device-type="portable"] #more-than-payments-container {
+    padding: 40px 0;
+}
+html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth .merchant-panel {
+    width: 90%;
+    min-height: 420px;
+    margin-left: 10px;
+}
+html[data-device-type="portable"] #get-started-carousel .merchant-panel {
+    width: 48%;
+    margin-bottom: 30px;
+    min-height: 330px;
+}
+html[data-device-type="portable"] #more-than-payments .merchant-panel h3 {
+    min-height: 80px;
+}
+html[data-device-type="portable"] #get-started-carousel .merchant-panel:nth-child(2n+1) {
+    margin-left: 0;
+}
+html[data-device-type="portable"] #get-started .merchant-panel .contentPara {
+    min-height: 100px;
+}
+
+html[data-device-type="mobile"] .merchant-links-panel .span6.pull-right {
+    width: auto;
+    float: none;
+}
+html[data-device-type="mobile"] .merchant-panel:first-child {
+    margin-left: 0;
+}
+html[data-device-type="mobile"] #more-than-payments .sideKickHeadline {
+    min-height: 72px;
+}
+html[data-device-type="mobile"] #more-than-payments-container {
+    padding-top: 20px;
+}
+
+ html[data-device-type="mobile"] #more-than-payments-container {
+    padding: 40px 0 20px;
+}
+html[data-device-type="mobile"] #more-than-payments {
+    margin-top: 10px;
+}
+
+html[data-device-type="mobile"]  .merchant-panel .contentPara {
+    min-height: 130px;
+}
+html[data-device-type="mobile"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 110px;
+}
+
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    html[data-device-type="portable"] .row-fluid .offset1 {
+        margin-left: 3%;
+    }
+}
+
+.callout b.small {
+    width: 120px;
+    padding: 40px 15px;
+}
+.note {
+    font-size: 13px;
+    font-size: 0.9rem;
+}
+h2.pulloutHeadline {
+    margin: 11px 0 0 !important;
+
+}
+
+.pullout {
+    padding: 50px 0;
+}
+.panel-img {
+    width: 70px;
+    cursor: default;
+    margin-left: 15px;
+}
+
+
+.pageHeadline {
+    color: #009cde;
+}
+
+.Center-text {
+    margin-top: 45px;
+    text-align: left;
+}
+
+p {
+    padding-bottom: 21px;
+}
+
+.contentsubparagraph {
+    width: 843px;
+    margin-bottom: 30px;
+}
+
+.contentsubparagraph1 {
+    width: 893px;
+}
+
+
+.adjust1 {
+    text-align: left;
+    padding-top: 10px;        
+}
+
+.listOne {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 15px;
+    line-height:24px;
+}
+
+.MainPara {
+    text-align: left;
+    padding-top: 0px;
+}
+
+.pulloutPara{
+    margin-top: -12px;
+}
+
+#more-than-payments-container {
+    background: #f5f5f5;
+    padding: 0 0 45px;
+    
+}
+
+.contentPara {
+    margin-top:-3px
+}
+
+
+.Mainpara {
+    margin-top: 10px;
+}
+
+.n3 {
+    background-image: url("../../../webstatic/en_AU/mktg/hero-images/seller_protection_n1_1x.jpg");
+}
+
+.n2, .n2.parallax .parallax-bg{
+    background-image: url("../../../webstatic/en_AU/mktg/feature-images/seller_protection_v2n2_1x.jpg");
+}
+
+html[data-device-type="portable"] .row-fluid.n2 .span6 {
+    height: auto;
+    width: 74%;
+}
+
+html[data-device-type="portable"] .editorial-left .editorial-img {
+    margin-left: 0;
+    background-position: -6px bottom;
+}
+

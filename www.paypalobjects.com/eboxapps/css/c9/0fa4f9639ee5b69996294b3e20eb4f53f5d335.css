@@ -1,0 +1,625 @@
+/* /hero-full.css */
+.row-fluid .content-block {
+    min-height: 540px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.table-row.hero > #hero {
+    text-align: center;
+    vertical-align: middle;
+}
+.novideo-bg {
+    display: none;
+    background-position: center top;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    height: 400%\9;
+    z-index: -1;
+}
+.no-backgroundsize .novideo-bg { 
+    top: -280px\9;
+}
+.novideo-bg.show {
+    display: block;
+}
+.hero .novideo-bg {
+    background-image: url("../../../webstatic/mktg/wright/home/city_bg_mobile.jpg");
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+}
+.dark .hero-video-still .novideo-bg {
+    background-color: #333;
+}
+#hero.video-loaded > .novideo-bg {
+    display: none;
+}
+.hero h1 {
+    margin-bottom: 20px;    
+    line-height: 1.3em;
+}
+.hero .row-fluid {
+    background: transparent;
+}
+.hero .btn {
+    width: 321px;
+}
+.hero .legal-notes {
+    color: #fff;
+    line-height: 1.5em;
+}
+.hero .signup-subline {
+    margin-top: 26px;
+    font-size: 15px;
+    font-size: 1.07142857142857rem;
+}
+#fixed-top > .table-row.hero > div {
+    text-align: center;
+    vertical-align: middle;
+}
+html[data-device-type="dedicated"] .hero-subheadline,
+html[data-device-type="portable"] .hero-subheadline {
+    margin-bottom: 26px;
+    font-size: 18px;
+}
+html[data-device-type="dedicated"] .hero-hatch,
+html[data-device-type="portable"] .hero-hatch {
+    margin-top: 26px;
+}
+/* content on the left half */
+html[data-device-type="dedicated"] .hero .span7,
+html[data-device-type="portable"] .hero .span7 {
+    padding: 0;
+    text-align: left;
+}
+/* Portable */
+html[data-device-type="portable"] .hero .btn {
+    width: 32%;
+}
+/* Mobile version */
+html[data-device-type="mobile"] .hero .row-fluid .span7 {
+    width: 100%;
+}
+html[data-device-type="mobile"] .hero .span12,
+html[data-device-type="mobile"] .hero .span7 {
+    padding: 3.75%;
+}
+html[data-device-type="mobile"] .hero .btn {
+    width: 89%;
+    display: block;
+    margin: 0 auto;
+    -webkit-touch-callout: none;    
+}
+html[data-device-type="mobile"] .hero h1 {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+    padding: 4% 8% 0;
+    text-shadow: none;
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .hero.mobile-img-top .span12 {
+    padding-top: 225px;
+}
+html[data-device-type="mobile"] .hero.mobile-img-top .hero-video-still .novideo-bg {
+    background-size: auto 225px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+html[data-device-type="mobile"] .hero .signup-subline {
+    margin-top: 0;
+}
+
+.control .hero-bg .novideo-bg  {
+    background-image: url("../../../webstatic/en_IN/mktg/hero-images/Landing-Page-yoga-India-1600X900px_No-copy.jpg");
+    background-position: center center;
+}
+.hero-bg .novideo-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/home/in-img1_hero_bg_1x.jpg");
+}
+#hero.video-loaded > .novideo-bg {
+    display: none;
+}
+#hero h1 {
+    line-height: 1.3em;
+    margin: 0 auto 20px;
+    max-width: 1024px;
+    text-shadow: 0 0 160px #000;
+}
+html[data-device-type="mobile"] h1 {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+    padding: 4% 8% 0;
+}
+.hero .btn {
+    min-width: 260px;
+    max-width: 321px;
+    width: 89%;
+}
+html[data-device-type="dedicated"] .hero .btn, html[data-device-type="portable"] .hero .btn {
+    width: 32%;
+}
+html[data-device-type="mobile"] .hero .btn {
+    display: block;
+    margin: 0 auto;
+}
+#hero-arrow {
+    display: none;
+}
+#hugger-arrow {
+    top: -10px;
+}
+.hero .input-wrapper {
+    margin-top: 20px;
+}
+.hero .input-wrapper:first-child input {
+    margin-left: 0;
+}
+.hero input[type="email"] {
+    width: 250px;
+}
+.hero input[type="password"] {
+    width: 160px;
+}
+.hero input.btn {
+    min-width: 250px;
+}
+.signup-subline {
+    margin-top: 20px;
+}
+.dark .signup-subline {
+    color: #fff;
+}
+.hero-hugger {
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 3;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate(0, 0);
+}
+.hero-hugger .containerCentered {
+    padding-top: 16px;
+    line-height: 0.5em;
+}
+.hero-hugger .button-menu {
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    white-space: nowrap;
+}
+.hero-hugger .button-menu li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.hero-hugger .button-menu .navlink {
+    display: inline-block;
+    font-size: 13px;
+    color: #777;
+    padding-left: 8px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    top: -2px;
+}
+.hero-hugger .country-selector {
+    width: 180px;
+    margin-top: 0;
+}
+.hero-hugger .country-selector a {
+    color: #777;
+}
+.button-menu .icon {
+    background-color: transparent;
+    background-image: url("../../../webstatic/mktg/wright/icons/quickbar-icons2x.png");
+    background-image: url("../../../webstatic/mktg/wright/icons/quickbar-icons.png")\9;
+    background-repeat: no-repeat;
+    background-position: -25px 5px;
+    background-size: 72px 32px;
+    margin: 0 4px 0 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #8c8c8c;
+    border-radius: 14px;
+    overflow: hidden;
+    text-indent: -999em;
+    min-width: 0;
+    padding: 0;
+    
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+.button-menu .icon:hover {
+    border-color: #0079c1;
+}
+.button-menu .icon.help {
+    width: 23px;
+}
+.button-menu .icon.help:hover {
+    background-position: -25px -15px;
+}
+.button-menu .icon.contact {
+    background-position: -55px 5px;
+}
+.button-menu .icon.contact:hover {
+    background-position: -55px -15px;
+}
+.button-menu .icon.search {
+    background-position: 5px 5px;
+}
+.button-menu .icon.search:hover {
+    background-position: 5px -15px;
+}
+#n1 {
+    box-shadow: 0 -1px rgba(0, 0, 0, .1);
+}
+.n1 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/home/home_n1_1x.jpg");
+}
+.n2, .n2.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/home/home_n2_1x.jpg");
+}
+.n3 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/home/2-item-click-with-customer.jpg");
+}
+/*tickle bar */
+.hero-notification p {
+    padding: 30px 0;
+}
+.hero-notification p:last-child {
+    padding: 0;
+}
+.signature {
+    background: url("../../../webstatic/mktg/Logo/pplogo_reverse_1x.png") no-repeat center;
+    height: 40px;
+    text-indent: -999em;
+}
+#fixed-top > .table-row.hero > div {
+    text-align: center;
+    vertical-align: middle;
+}
+/* Mobile version */
+html[data-device-type="mobile"] h1 {
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .signup-subline {
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .row-fluid .content-block {
+    min-height: 0;
+}
+html[data-device-type="mobile"] #hero .fancy-down-arrow-grey {
+    display: block;
+}
+html[data-device-type="portable"] .hero-bg .novideo-bg {
+    background-position: 80%
+}
+html[data-device-type="mobile"] div.hero-cta {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+@media (max-width: 479px) {
+    html[data-device-type="mobile"] .hero-main.control{
+        height: auto !important;
+    }
+}
+
+
+
+html[data-device-type="mobile"] .control h1 {
+    padding: 30px 0 0 0;
+}
+.hero .span7 h3 {
+    width: 75%;
+    color: #767676;
+    font-size: 2rem;
+}
+@media only screen and (orientation: landscape) { 
+    html[data-device-type="mobile"] .hero-video-still .novideo-bg {
+            background-size: 100% !important;
+    }
+   
+        html[data-device-type="mobile"] .row-fluid #hero .span7 {
+            width: 100%; 
+        } 
+   
+    
+    html[data-device-type="mobile"] .hero-main {
+        height: auto !important;
+    }
+}
+ html[data-device-type="portable"] .row-fluid .span7 {
+       width: 47.25%;
+    }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+    html[data-device-type="portable"] div#fixed-top.moving-background-container.container-fixed {
+        height: auto !important;
+    }
+
+    html[data-device-type="portable"] .vertical-centered {
+        top: 50%;
+    }
+    html[data-device-type="portable"] .hero-bg .novideo-bg {
+        background-position: 60% center;
+        background-size: cover;
+    }
+    html[data-device-type="portable"] .row-fluid .span7 {
+        width: 43.25%;
+    }
+    html[data-device-type="portable"] #hero .containerCentered {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    html[data-device-type="portable"] section.row-fluid.hero.hero-fixed.hero-main.mobile-img-top {
+        
+        height: 500px !important;
+    }
+}
+
+html[data-device-type="mobile"] .row-fluid #hero .span7 {
+    margin-left: 0;
+    padding-top: 225px;
+}
+.row-fluid #hero .span7 {
+   margin-left: 32px;
+}
+
+.ctatop-video .icon-play-white {
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    text-indent: -999em;
+    vertical-align: middle;
+    margin-right: 12px
+}
+
+.ctatop-video .icon-play-white:after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 11px;
+    width: 0;
+    height: 0;
+    border: 14px solid transparent;
+    border-width: 7px 14px;
+    border-left-color: #fff;
+    overflow: hidden
+}
+
+.ctatop-video .play-btn {
+    padding: 5px 0
+}
+
+.ctatop-video .play-btn:hover {
+    color: #fff
+}
+
+.ctatop-video #paypal-works-video:hover {
+    color: #fff
+}
+
+.ctatop-sign-up .btn:hover {
+    color: #fff
+}
+
+.ctatop-sign-up .signup-headline {
+    padding-bottom: 30px
+}
+
+.ctatop-sign-up .ctatop-sign-up-form .signup-subline {
+    padding-top: 30px
+}
+
+.sign-up-form {
+    padding: 30px 0
+}
+
+.p1 {
+    padding-bottom: 30px
+}
+ 
+html[data-device-type="dedicated"] .icons-1 .containerCentered {
+    padding-left: 0;
+}
+html[data-device-type="dedicated"] .icons-1 {
+    padding: 0 0 30px
+}
+
+.treatment-home .hero-bg .novideo-bg {
+    background-image: url("../../../webstatic/en_PH/mktg/wright/home/hero-1600x600.jpg");
+}
+.custom-logos .row-fluid {
+    background-position: 50% 10px
+}
+
+.custom-logos {
+   /* background: url("https://www.paypalobjects.com/webstatic/en_US/mktg/wright/home/sprite_homepage_0325_logos.jpg") no-repeat;
+    */
+    width: 33%;
+    height: 105px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0
+}
+
+html[data-device-type="dedicated"] section.steps-section .span4 {
+    padding-left: 10px;
+    width: 27%;
+}
+html[data-device-type="portable"] section.icons-1, div.icons-1.mobile-icon-wrap, .custom-logos { 
+    background: url("../../../webstatic/en_IN/mktg/wright/home/sprite_cc_bank_logos_1x.png") transparent no-repeat;
+    height: 75px;
+
+}
+section.icons-2 {
+     padding: 0 0 90px;
+}
+.icons-2 i.custom-logos {
+    background:url("../../../webstatic/en_IN/mktg/wright/home/sprite_homepage_valueprop_logos.jpg") transparent no-repeat;
+    height: 105px;
+}
+
+html[data-device-type="dedicated"] .icons-1 .custom-logos {
+    float: left;
+    margin-left: 0;
+    margin: 10px 0; 
+}
+ html[data-device-type="mobile"] .icons-1 i.custom-logos {
+    width: 100%; 
+}
+html[data-device-type="dedicated"] .icons-1 i{
+     width: 140px;
+}
+
+html[data-device-type="portable"] .icons-1 i{
+    background-size: 150% 650% ;
+    height: 50px;
+    width: 13%;
+}
+html[data-device-type="portable"] .icons-2 i.custom-logos {
+    width: 45%;
+    padding-left: 25px
+}
+
+    i.custom-logos.mastercard {
+        background-position: 45% 5px;
+    }
+
+    i.custom-logos.visa {
+        background-position: 45% -65px;
+    }
+
+    i.custom-logos.discover {
+        background-position: 48% -142px;
+    }
+    i.custom-logos.amex {
+        background-position: 50% -220px;
+    }
+    .icons-1 i.custom-logos.icici {
+        background-position: 45% -292px; 
+        width: 240px;
+    }
+
+    .icons-1 i.custom-logos.hdfc {
+        background-position: 45% -368px; 
+        width: 240px;
+    }
+
+    html[data-device-type="portable"] i.custom-logos.mastercard {
+        background-position: 50% 0px;
+    }
+
+    html[data-device-type="portable"] i.custom-logos.visa {
+        background-position: 50% -50px;
+    }
+
+    html[data-device-type="portable"] i.custom-logos.discover {
+        background-position: 50% -105px;
+    }
+    html[data-device-type="portable"] i.custom-logos.amex {
+        background-position:  50% -165px;
+    }
+   html[data-device-type="portable"] .icons-1 i.custom-logos.icici {
+        background-position: 50% -427px;
+        width: 155px;
+        background-size: 97% 600px !important;
+    }
+
+   html[data-device-type="portable"] .icons-1 i.custom-logos.hdfc {
+        background-position: 50% -427px;
+        width: 155px;
+        background-size: 194px 603px !important;
+    }
+
+
+    .icons-2 i.custom-logos.agoda {
+        background-position: 55% 0; 
+    }
+
+    .icons-2 i.custom-logos.digitalextreme {
+    background-position: 55% -90px;
+    }
+
+    .icons-2 i.custom-logos.hobbyking {
+    background-position: 55% -190px;
+    }
+
+    .icons-2 i.custom-logos.humble {
+    background-position: 55% -290px;
+    }
+
+    .icons-2 i.custom-logos.skype {
+    background-position: 55% -390px
+    }
+    
+    .icons-2 i.custom-logos.steam {
+    background-position: 55% -490px
+    }
+
+.c1 .pulloutHeadline {
+    position: relative;
+    color: #009cde;
+}
+.panel {
+    padding: 70px 0;
+}
+
+
+html[data-device-type="portable"] .custom-logos .row-fluid  {
+    width: 33%
+}
+
+
+html[data-device-type="mobile"] .icons-2 i.custom-logos{
+   width: 240px;
+}
+html[data-device-type="mobile"] section.icons-2 {
+    padding:0;
+}
+
+
+
+@media (max-width: 480px) {
+    html[data-device-type="mobile"] .custom-logos .row-fluid  {
+        background-size: 106% 1040%
+    }
+}
+.hero-home {
+      height: 450px !important;
+}
+html[data-device-type="mobile"] .containerMobileFullWidth {
+   height: auto;
+}
+html[data-device-type="mobile"] .hero-main {
+    height: 235px;
+}
+
+html[data-device-type="mobile"] .hero-video-still .novideo-bg {
+    background-position: 60% 50%;
+}
+.row-fluid  .span7 {
+    width: 50%;
+}
+@media (min-width: 480px) {
+   html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth [class*="span"] {
+        width: 67%;
+   }
+}
+.treatment-home #hero h1 {
+    font-size: 50px;
+}
+

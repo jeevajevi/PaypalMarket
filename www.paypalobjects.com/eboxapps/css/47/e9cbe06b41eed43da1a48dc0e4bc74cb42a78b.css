@@ -1,0 +1,104 @@
+/* 
+Core2 and Shared template migration to new dust template.
+Override MPP2 old page style. 
+*/
+
+/* NOTE: Use important because we have to override ancient page CSS. Not recommended otherwise. */
+
+/* Shared or core:layout */
+html {
+  background: none !important;
+}
+section#content {
+  min-width: 67.14285714285714em;
+  max-width: 82.14285714285714em;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: content-box;
+  padding-left: 3%;
+  padding-right: 3%;
+  background: none !important;
+}
+#signup-button {
+  color: #fff;
+}
+#header-buttons .btn-signup {
+  color: #fff;
+}
+header #main-menu li {
+    margin: 0;
+}
+header a[name] {
+  font-size: 0.786rem;
+  line-height: 1.36em;
+  display: inline-block
+}
+.rtl {
+  direction: rtl;
+}
+footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-size: 14px !important;
+}
+footer a:link, 
+footer a:visited {
+  color: #666;
+  text-decoration: none;
+}
+.footer-search button.search-icon,
+.footer-search button:hover {
+  border-color: rgba(0, 0, 0, 0);
+  box-shadow: none;
+  box-sizing: border-box;
+
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAFR2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS41LWMwMTIgMS4xNDk2MDIsIDIwMTIvMTAvMTAtMTg6MTA6MjQgICAgICAgICI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICB4bWxuczpkYW09Imh0dHA6Ly93d3cuZGF5LmNvbS9kYW0vMS4wIgogICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICB4bWxuczpwcmlzbT0iaHR0cDovL3ByaXNtc3RhbmRhcmQub3JnL25hbWVzcGFjZXMvYmFzaWMvMi4xLyIKICAgIHhtbG5zOlBheVBhbD0id3d3LnBheXBhbC5jb20vYmFzZS92MSIKICAgZGM6Zm9ybWF0PSJpbWFnZS9wbmciCiAgIGRjOm1vZGlmaWVkPSIyMDEzLTEwLTI4VDEyOjEwOjUyLjgyLTA3OjAwIgogICBkYW06c2l6ZT0iNDYzIgogICBkYW06UGh5c2ljYWx3aWR0aGluaW5jaGVzPSItMS4wIgogICBkYW06ZXh0cmFjdGVkPSIyMDEzLTEwLTI4VDEyOjEwOjUxLjk3Ny0wNzowMCIKICAgZGFtOnNoYTE9IjgxYjdmMWM5MWU2MDNiNDhkZWRhNjFhNmVkNGIwOWI0Mzg1M2IxZGIiCiAgIGRhbTpOdW1iZXJvZnRleHR1YWxjb21tZW50cz0iMCIKICAgZGFtOkZpbGVmb3JtYXQ9IlBORyIKICAgZGFtOlByb2dyZXNzaXZlPSJubyIKICAgZGFtOlBoeXNpY2FsaGVpZ2h0aW5kcGk9Ii0xIgogICBkYW06TUlNRXR5cGU9ImltYWdlL3BuZyIKICAgZGFtOk51bWJlcm9maW1hZ2VzPSIxIgogICBkYW06Qml0c3BlcnBpeGVsPSIzMiIKICAgZGFtOlBoeXNpY2FsaGVpZ2h0aW5pbmNoZXM9Ii0xLjAiCiAgIGRhbTpQaHlzaWNhbHdpZHRoaW5kcGk9Ii0xIgogICB0aWZmOkltYWdlTGVuZ3RoPSIyOCIKICAgdGlmZjpJbWFnZVdpZHRoPSIyOCIKICAgcHJpc206ZXhwaXJhdGlvbkRhdGU9IjIwMTgtMTEtMTJUMDE6MzAtMDg6MDAiCiAgIFBheVBhbDpzdGF0dXM9IlNvdXJjZUFwcHJvdmVkIgogICBQYXlQYWw6c291cmNlTm9kZVBhdGg9Ii9jb250ZW50L2RhbS9QYXlQYWxEaWdpdGFsQXNzZXRzL3NwYXJ0YUltYWdlcy9HbG9iYWxJbWFnZXMvbWt0Zy8yMDE0ZGVzaWduL3NlYXJjaF9nbGFzc19sYXJnZTJ4LnBuZyIKICAgUGF5UGFsOmlzU291cmNlPSJ0cnVlIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+1D5OBAAAAZZJREFUeNq11L8rhHEAx/GH5+RHiEkiAwbluM2/QCgRi8WiG00Gi8GvVUo2DKKblPWy+BEpZfDrZLhSUgy67kJxebyHG/QZvs/3eeoZXsv5fr7v+8lJJpN+XDQjUdIAJyzTH4dwgDw8cYVFNIUJqgTO4FkoYAEVYYPj+IIX0AkagwaHUYQHlUEap8jBg7pApW2wBe9yQRHraJNRDCO4g0bXbIM7MvxAv8+4BvvQJ9ntF2zGjwwn4ViowqVst/yC0zI4ghNAn+xzcE3BPRlMwQkoI3f0moLHcrgzRHBb7hg1Ba/lcGOI4Kp+B0zBczkcDxFMyR0DpuCmHJ4JGCvHq9zRbgpOyOFHxAIEx2X/5PezqEdBRiuWsRY8y3bJ5j/Nsox+MY8yw7gDt/BECq5fsBYP0PE5xlD3b9SDZXlX1J5EJQh0481wSR7f+rh9VINAHFkdq6BRDaoGbFi+mnu82EY1qFoxh0Nk8YkcbrCFQZSjyyK6C1eC4QWJyjDy6KyMIo2mUS2DiKKlmHyGEUQlJsFIojsoxYA/UaC7EdMjt6gAAAAASUVORK5CYII=');
+  background-repeat: no-repeat;
+  background-position: left 9px;
+  background-size: 14px 14px;
+  margin: 5px 5px 0 0;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 30px !important;
+  height: 36px;
+  padding: 13px 0 9px;
+  vertical-align: middle;
+  min-width: 0;
+  -webkit-appearance: none;  
+}
+#login-header input.small {
+  width: 182px;
+}
+
+/* core2:template */
+body {
+    /*something to do with em and body width*/
+    font-size: 14px !important;
+}
+
+/* reset header height */
+header {
+  height: auto !important;
+}
+
+/* remove pixel spacer */
+td img[height="1"],td img[height="2"],td img[height="4"] {
+  display:none !important;
+}
+
+#content #main {
+  padding-bottom: 0 !important;
+  background-image: none !important;
+}
+#content {
+  border-top: 0 !important;
+}
+footer .footer-main {
+  text-align: left;
+}
+
+
+
+

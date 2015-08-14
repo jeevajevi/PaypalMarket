@@ -1,0 +1,748 @@
+
+#mainHead {
+    background-image: url("../../../webstatic/en_AU/mktg/banners/Au-landingpage-hero_n1_1x.jpg");
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 44px 0 116px;
+    background-position: 60% center;
+}
+
+.hero-bg .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/banners/Au-landingpage-hero_n1_1x.jpg");
+}
+
+#mainHead .span7 {
+    margin: 0 auto;
+    float: none;
+}
+
+#more-three-panels-container {
+    padding: 60px 0;
+}
+
+#more-three-panels {
+    margin-top: 30px;
+
+}
+.row-fluid .merchant-panel {
+   background: none repeat scroll 0 0 #FFFFFF;
+   border-color: #E5E5E5 #D9D9D9 #CCCCCC;
+   border-image: none;
+   border-style: solid;
+   border-width: 1px;
+   box-sizing: border-box;
+   padding: 15px 2% 0 0;
+}
+
+.row-fluid .merchant-panel:first-child {
+    padding-left: 0;
+}
+
+.row-fluid .merchant-panel p {
+    min-height: 127px;
+    line-height: 21px;
+}
+
+.panel-img {
+    margin-bottom: 15px;
+    width: 70px;
+}
+ul.organizedList li {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.play {
+    
+    position: absolute;
+    margin-top: 32px;
+}
+
+.play > span:after {
+    content:'';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -6px;
+    overflow: hidden;
+    border: 24px solid transparent;
+    border-width: 10px 19px;
+    border-left-color: #fff;
+}
+
+.play > span {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    width: 45px;
+    height: 45px;
+    margin-left: -30px;
+    margin-top: -32px;
+    text-indent: -999em;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 36px;
+}
+
+.shop-head .play > span {
+    border: 2px solid #0c8dc4;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    margin-top: -19px;
+    margin-left: -25px;
+}
+
+.shop-head .play > span:after {
+  border-width: 5px 10px;
+  border-color: transparent transparent transparent #0c8dc4;
+  margin-top: -5px;
+  margin-left: -3px;
+}
+
+.floating-bar {
+    background: #f5f5f5;
+}
+
+.row-fluid .merchant-panel {
+background: transparent;
+border-style: none;
+}
+
+#shops2 .panel-img {
+    width: 100%;
+}
+
+#shops2 .center-text{
+    text-align: left;
+    font-size: 1.857rem;
+}
+#shops2 h2 {
+    font-size: 1.857rem;
+}
+
+.panel .panel-img {
+    margin-bottom: 15px;
+}
+
+.play {
+    position: absolute;
+    margin-top: 32px;
+    bottom: 60px;
+    left: 50%;
+}
+
+.row-fluid .span4.steps {
+    width: 32%;
+    padding: 2%;
+    color: #fff;
+    border: 1px solid #e6e6e6;
+}
+
+.row-fluid.white .span4.step1 {
+    margin: 0;
+}
+
+.white {
+    padding: 35px 0;
+}
+
+.white .pulloutHeadline {
+    margin: 0 0 25px;
+}
+
+.panel {
+    padding: 90px 0px 120px;
+}
+
+#get-started {
+    padding: 35px 0;   
+}
+
+#shops2 .categoryShop, .shop-head .contentPara, html[data-device-type="mobile"] .steps img {
+    display: none;
+}
+
+#get-started .pulloutHeadline {
+    margin: 0 0 10px;
+}
+
+h3.sideKickHeadline {
+    margin-bottom: 10px;
+    font-size: 1.4287rem;
+}
+
+.shop-head .pulloutHeadline {
+    text-align: left;
+    margin: 35px 0 0;
+}
+
+.shop-head p {
+    text-align: left;
+    font-size: 20px;
+}
+
+#shops2 {
+    padding: 10px 0 0;
+}
+
+.shop-head .pulloutPara {
+    position: relative;
+    padding-top: 0;
+}
+
+.shop-head .pulloutPara a {
+    font-size: 18px;
+}
+
+.shop-head .play {
+    margin-top: 32px;
+    bottom: 40px;
+    left: 12.7%;
+    position: absolute;
+}
+
+shop-head .play > span:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -6px;
+  overflow: hidden;
+  border: 24px solid transparent;
+  border-width: 10px 19px;
+  border-left-color: #fff;
+}
+
+.note .pulloutPara {
+    font-size: 11px;
+    margin: 20px 0 0;
+    padding: 0;
+    text-align: left;
+}
+
+sup {
+    font-size: 13px;
+    top: -1px;
+}
+
+#sticky-nav .merchant-links {
+    font-weight: normal;
+    margin: 2.9% 2%;
+    float: right;
+}
+
+#sticky-nav .span6 p {
+    margin: 12px 0 0;
+}
+
+.panel.light {
+    padding: 60px 0px 32px;
+}
+
+#sticky-nav .span6 .btn {
+    float: left;
+    margin: 6px 22px 0px 0px;
+}
+
+.steps img {
+    margin: 15px auto 0;
+    display: block;
+    min-height: 37px;
+}
+
+html p.step-text {
+    display: table-cell;
+    vertical-align: top;
+    height: 30px;
+    padding: 0;
+    color: #333;
+}
+html p.circle {
+    border: 1px solid #333;
+    padding: 4px 11px;
+    border-radius: 50%;
+    width: 8px;
+    float: left;
+    margin-right: 20px;
+    color: #333;
+}
+#mainHead .pageHeadline {
+    font-size: 28px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+
+}
+#shops3 .center-text{
+    text-align: left;
+    font-size: 1.857rem;
+}
+
+#mainHead .pulloutPara {
+    font-size: 1.28571428571429rem;
+    color: #777;
+    font-weight: normal;
+    padding: 0;
+}
+
+.closing-panel.light {
+    padding: 20px 0 0;
+}
+
+.closing-panel .pulloutPara {
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+.ui-front {
+    z-index: 5002;
+}
+
+html {
+    overflow-x: hidden;
+}
+.signuphide {
+    display: none;
+}
+.on a.btn.signuphide {
+    display: block;
+}
+
+html[data-device-type="mobile"] .greybg {
+    background-color: #f5f5f5;
+}
+
+html[data-device-type="mobile"] #get-started-carousel .containerCentered {
+    padding: 0;
+}
+
+html[data-device-type="mobile"] .row-fluid form{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+html[data-device-type="mobile"] .white {
+    padding: 15px 3.75% 15px;
+}
+
+html[data-device-type="mobile"] .white .pulloutHeadline {
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+html[data-device-type="mobile"] select.no-arrow {
+    margin: 0;
+}
+
+html[data-device-type="mobile"] #get-started {
+    padding: 15px 0 0;
+    border-top: 1px solid #ccc;
+}
+
+html[data-device-type="mobile"] #get-started .pulloutHeadline {
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 2.14285714285714rem;
+}
+
+html[data-device-type="mobile"] .carousel {
+    padding: 20px 20px 0;
+}
+
+html[data-device-type="mobile"] .sideKickHeadline {
+    margin-bottom: 0;
+}
+
+html[data-device-type="mobile"] .shop-head .pulloutHeadline {
+    margin-top: 15px;
+    font-size: 1.462857rem;
+}
+
+html[data-device-type="mobile"] #shops2 {
+    padding: 5px 0 0;
+}
+
+html[data-device-type="mobile"] .categoryShop {
+    display: none;
+}
+
+html[data-device-type="mobile"] #get-started .panel-img {
+    display: none;
+}
+
+html[data-device-type="mobile"] .shop .container4d2p1m .span3:nth-child(n) {
+  padding-left: 0;
+}
+html[data-device-type="mobile"] .shop .container4d2p1m .span3 {
+  width: 50%;
+  padding: 0 5px 0;
+  float: left;
+}
+
+html[data-device-type="mobile"] .shop .container4d2p1m .span3:nth-child(2n) {
+  padding-right: 0;
+  padding-left: 5px;
+}
+
+html[data-device-type="mobile"] .shop-head .pulloutPara {
+  padding: 15px 0;
+}
+
+html[data-device-type="mobile"] .row-fluid .merchant-panel p {
+    min-height: 0;
+}
+
+html[data-device-type="mobile"] .shop-head .contentPara {
+    padding-bottom: 0;
+}
+
+html[data-device-type="mobile"] .panel .panel-img {
+    margin: 25px 0 0;
+}
+
+html[data-device-type="mobile"] .panel div + div, html[data-device-type="mobile"] #shops2 {
+    padding: 0;
+}
+
+html[data-device-type="mobile"] .panel.light {
+    padding: 8px 0 0;
+}
+
+html[data-device-type="mobile"] .closing-cta {
+    margin-top: 0;
+}
+
+html[data-device-type="mobile"] .note .pulloutPara {
+    margin: 15px 0;
+}
+
+html[data-device-type="mobile"] #getstarted {
+    background-color: #fff;
+}
+
+html[data-device-type="mobile"] .closing-panel .pulloutPara {
+    padding-bottom: 0;
+}
+
+html[data-device-type="mobile"] .closing-panel .pulloutPara a {
+    display: block;
+}
+
+html[data-device-type="mobile"] .row-fluid .merchant-panel {
+    padding: 15px 3.75%;
+}
+
+html[data-device-type="mobile"] #mainHead {
+    padding: 0 0 70px;
+}
+
+html[data-device-type="mobile"] #mainHead .pageHeadline {
+    padding-top: 15px;
+    font-size: 2.157rem;
+}
+
+html[data-device-type="mobile"] #mainHead .play {
+    bottom: 7%;
+}
+
+html[data-device-type="mobile"] .row-fluid .span4.steps {
+    border: none;
+}
+
+html[data-device-type="mobile"] p.step-text {
+    color: #767676;
+}
+
+html[data-device-type="portable"] .row-fluid form {
+    margin-top: 8px;
+}
+
+html[data-device-type="mobile"] p.circle  {
+    border: 1px solid #0079c0;
+    color: #0079c0;
+}
+
+html[data-device-type="mobile"] .row-fluid .containerCentered .closing-cta {
+    width: 80%;
+}
+
+html[data-device-type="portable"] #mainHead .span7  {
+        width: 63.5%;
+    }
+
+@media all and (min-width: 767px) and (max-width: 1024px) {
+
+    html[data-device-type="portable"] .row-fluid .container4d2p1m [class*="span"] {
+        width: 22.5%;
+        padding-top: 0;
+    }
+
+    html[data-device-type="portable"] #mainHead .span7  {
+        width: 71.5%;
+    }
+
+    html[data-device-type="portable"] #mainHead {
+        background-size: 2000px 400px;
+    }
+
+    .row-fluid .merchant-panel p {
+        min-height: 148px;
+    }
+
+    .shop-head .play {
+        left: 15.7%;
+    }
+
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+
+    html[data-device-type="portable"] .row-fluid .span3 {
+        width: 22%;
+    }
+
+    html[data-device-type="portable"] #mainHead .span7  {
+        width: 89.5%;
+    }
+
+    .row-fluid .merchant-panel p {
+        min-height: 210px;
+    }
+
+    .shop-head .play {
+        left: 20.7%;
+    }
+}
+
+@media (max-width: 767px) { 
+    .shop-head .play {
+        left: 22.7%;
+        bottom: 33%;
+    }
+
+    html[data-device-type="mobile"] #mainHead {
+        background-position: 21% center;
+    }
+}
+
+@media (max-width: 667px) {
+    .shop-head .play {
+        left: 23.7%;
+    }
+}
+
+@media (max-width: 660px) {
+    .shop-head .play {
+        left: 27.7%;
+    }
+}
+
+@media (max-width: 568px) {
+    
+    html[data-device-type="mobile"] #mainHead {
+        background-position: 32% center;
+    }
+
+    #get-started .pulloutHeadline {
+        text-align: center;
+    }
+
+    .shop-head .pulloutHeadline {
+        text-align: center;
+    }
+
+    .shop-head p {
+        text-align: center;
+    }
+
+    .white .pulloutHeadline {
+        text-align: center;
+    }
+
+    .shop-head .play {
+        left: 66.7%;
+        bottom: 20px;
+    }
+
+    select.wide-select {
+        width: 263px;
+    }
+}
+
+@media (max-width: 567px) {
+    .shop-head .play {
+        left: 71.7%;
+        bottom: 20px;
+    }
+
+    html[data-device-type="mobile"] #mainHead {
+        background-position: 39% center;
+    }
+}
+
+@media (max-width: 420px) {
+    .shop-head .play {
+        left: 75.3%;
+    }
+}
+
+@media (max-width: 374px){
+    html[data-device-type="mobile"] .shop-head .pulloutHeadline {
+        font-size: 1.252857rem
+    }
+}
+
+@media (max-width: 366px) {
+    #mainHead {
+        padding: 30px 0 180px;
+    }
+
+    #mainHead .play {
+        bottom: 20%;
+    }
+    .row-fluid .heroBtn {
+        margin-top: 15px;
+    }
+    .shop-head .play {
+        left: 79.7%;
+        bottom: 20px;
+    }
+
+}
+
+#hpw p.step-text {
+    height: 70px;
+}
+ section.icons-2.verTwo {
+    padding: 0 0 70px;
+}
+html[data-device-type="dedicated"] .icons-1.verTwo .containerCentered {
+    padding-left: 40px;
+}
+
+html[data-device-type="portable"] .icons-1.verTwo i.custom-logos.hdfc {
+    background-size: 194px 490px !important;
+}
+
+/* /hero-full.css */
+.row-fluid .content-block {
+    min-height: 540px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.table-row.hero > #hero {
+    text-align: center;
+    vertical-align: middle;
+}
+.novideo-bg {
+    display: none;
+    background-position: center top;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    height: 400%\9;
+    z-index: -1;
+}
+.no-backgroundsize .novideo-bg { 
+    top: -280px\9;
+}
+.novideo-bg.show {
+    display: block;
+}
+.hero .novideo-bg {
+    background-image: url("../../../webstatic/mktg/wright/home/city_bg_mobile.jpg");
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+}
+.dark .hero-video-still .novideo-bg {
+    background-color: #333;
+}
+#hero.video-loaded > .novideo-bg {
+    display: none;
+}
+.hero h1 {
+    margin-bottom: 20px;    
+    line-height: 1.3em;
+}
+.hero .row-fluid {
+    background: transparent;
+}
+.hero .btn {
+    width: 321px;
+}
+.hero .legal-notes {
+    color: #fff;
+    line-height: 1.5em;
+}
+.hero .signup-subline {
+    margin-top: 26px;
+    font-size: 15px;
+    font-size: 1.07142857142857rem;
+}
+#fixed-top > .table-row.hero > div {
+    text-align: center;
+    vertical-align: middle;
+}
+html[data-device-type="dedicated"] .hero-subheadline,
+html[data-device-type="portable"] .hero-subheadline {
+    margin-bottom: 26px;
+    font-size: 18px;
+}
+html[data-device-type="dedicated"] .hero-hatch,
+html[data-device-type="portable"] .hero-hatch {
+    margin-top: 26px;
+}
+/* content on the left half */
+html[data-device-type="dedicated"] .hero .span7,
+html[data-device-type="portable"] .hero .span7 {
+    padding: 0;
+    text-align: left;
+}
+/* Portable */
+html[data-device-type="portable"] .hero .btn {
+    width: 32%;
+}
+/* Mobile version */
+html[data-device-type="mobile"] .hero .row-fluid .span7 {
+    width: 100%;
+}
+html[data-device-type="mobile"] .hero .span12,
+html[data-device-type="mobile"] .hero .span7 {
+    padding: 3.75%;
+}
+html[data-device-type="mobile"] .hero .btn {
+    width: 89%;
+    display: block;
+    margin: 0 auto;
+    -webkit-touch-callout: none;    
+}
+html[data-device-type="mobile"] .hero h1 {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+    padding: 4% 8% 0;
+    text-shadow: none;
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .hero.mobile-img-top .span12 {
+    padding-top: 225px;
+}
+html[data-device-type="mobile"] .hero.mobile-img-top .hero-video-still .novideo-bg {
+    background-size: auto 225px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+html[data-device-type="mobile"] .hero .signup-subline {
+    margin-top: 0;
+}
+

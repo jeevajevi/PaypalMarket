@@ -1,0 +1,271 @@
+/* IN/en/firc-certificate/resources/css/page.css */
+
+
+#more-than-payments {
+    margin-top: 30px;
+    padding-left: 13%;
+}
+
+@media (max-width: 71.71428571428571em) {
+    .chart-bgcolor h3 {
+        white-space: normal;
+    }
+}
+
+html[data-device-type="portable"] .merchant-links-panel, html[data-device-type="mobile"] .merchant-links-panel {
+    background: #f4f4f4;
+    padding: 16px 0;
+}
+
+html[data-device-type="portable"] html[data-device-type="portable"] #more-than-payments-container {
+    padding: 40px 0;
+}
+
+html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth .merchant-panel {
+    width: 90%;
+    min-height: 420px;
+    margin-left: 10px;
+}
+
+html[data-device-type="portable"] #get-started-carousel .merchant-panel {
+    width: 48%;
+    margin-bottom: 30px;
+    min-height: 330px;
+}
+
+html[data-device-type="portable"] #more-than-payments .merchant-panel h3 {
+    min-height: 63px;
+}
+
+html[data-device-type="portable"] #get-started-carousel .merchant-panel:nth-child(2n+1) {
+    margin-left: 0;
+}
+
+html[data-device-type="portable"] #get-started .merchant-panel .contentPara {
+    min-height: 100px;
+}
+
+html[data-device-type="portable"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 140px;
+}
+
+@media all and (max-width: 768px) {
+    html[data-device-type="portable"] #more-than-payments .merchant-panel h3, html[data-device-type="portable"] #more-than-payments .merchant-panel .contentPara {
+        min-height: 110px;
+    }
+}
+
+html[data-device-type="mobile"] .merchant-links-panel .span6.pull-right {
+    width: auto;
+    float: none;
+}
+
+html[data-device-type="mobile"] .merchant-panel:first-child {
+    margin-left: 0;
+}
+
+html[data-device-type="mobile"] #more-than-payments .sideKickHeadline {
+    min-height: 72px;
+}
+
+html[data-device-type="mobile"] #more-than-payments-container {
+    padding-top: 20px;
+}
+
+ html[data-device-type="mobile"] #more-than-payments-container {
+    padding: 40px 0 20px;
+}
+
+html[data-device-type="mobile"] #more-than-payments {
+    margin-top: 10px;
+}
+
+html[data-device-type="mobile"]  .merchant-panel .contentPara {
+    min-height: 130px;
+}
+
+html[data-device-type="mobile"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 110px;
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    html[data-device-type="portable"] .row-fluid .offset1 {
+        margin-left: 3%;
+    }
+}
+
+h2.pulloutHeadline {
+    margin: 11px 0 0;
+    text-align: left;
+}
+
+.pullout {
+    padding: 50px 0;
+}
+
+.row-fluid.panel.terms {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
+.containerCentered:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+html[data-device-type="dedicated"] .containerCentered {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.containerCentered {
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 79.1429em;
+    min-width: 67.1429em;
+}
+
+p.expanding.open {
+    height: auto;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.expand {
+    border: 1px solid #444444;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    width: 20px;
+}
+
+p.expanding {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.expanding {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
+    transition: height 0.3s ease 0s;
+}
+
+.lightBoxSP {
+    list-style-type: lower-alpha;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.sideKickHeadline {
+    margin-left: 21px;
+    margin-top: -15px;
+}
+
+.lightBoxSP > li {
+    margin-left: 4px;
+    line-height: 21px;
+    list-style-type: disc;
+}
+
+.set-list {
+    display: inline;
+    padding: 0 0 0 30px;
+    margin: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#para-3 {
+    line-height: 26px;
+}
+
+.pulloutPara {
+    text-align: left;
+ }
+
+.money-transfer-req .pulloutPara {
+    padding-top: 10px;
+}
+
+#more-than-payments {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.row-fluid .span8 {
+    width: 69%;
+}
+
+.row-fluid .span8 .pulloutPara {
+    text-align: center;
+}
+
+section {
+    border-bottom: 1px solid #E5E5E5;  
+}
+
+#more-than-payments-container {
+    background: #fff;
+    padding: 35px 0;
+}
+
+#more-than-payments-container .pulloutPara  {
+    font-size: 14px;
+}
+
+.headline {
+    margin: 35px 0 0;
+}
+
+.expand-rows {
+    margin: 10px 0 0;
+}
+
+.expand:after {
+    left: 0px;
+    top: 2px;
+}
+
+.center-block.span8 h2.pulloutHeadline {
+    text-align: center;
+}
+
+.pulloutPara2 {
+    padding: 0;
+    margin: -10px 0 0;
+}
+
+.list-para {
+    list-style-type: none !important;
+    margin: 20px 0 0 -6px !important;
+}
+
+@media (orientation: landscape) and (max-width: 480px) {
+    .expand {
+        margin-bottom: 20px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 360px) {
+    .expand {
+        margin-bottom: 15px;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 320px) {
+    .expand {
+        margin-bottom: 20px;
+    }
+
+    #expand-0 {
+        margin-bottom: 23px;
+    }
+}
+

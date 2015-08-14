@@ -1,0 +1,653 @@
+.hero-bg, .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/hero-images/Landing-Page-yoga-India-1600X900px_No-copy.jpg");
+    background-repeat: no-repeat;
+}
+
+#partner-hero,#partner-hero.hero-bg, #partner-hero.hero-bg.parallax .parallax-bg{
+  /*background-image: url("https://www.paypalobjects.com/webstatic/en_IN/mktg/hero-images/HOST-MOTHER-2015-Paypal_ICICI.jpg");  */
+  background-image: url("../../../webstatic/en_IN/mktg/hero-images/Landing-Page-yoga-India-1600X900px_No-copy.jpg");
+  background-repeat: no-repeat;
+ }
+
+ #partner-hero-1,#partner-hero-1.hero-bg, #partner-hero-1.hero-bg.parallax .parallax-bg {
+  background-image: url("../../../webstatic/en_IN/mktg/hero-images/Landing-Page-yoga-India-1600X900px_No-copy.jpg");  
+ }
+
+#partner-hero-2,#partner-hero-2.hero-bg, #partner-hero-2.hero-bg.parallax .parallax-bg{
+  /* background-image: url("https://www.paypalobjects.com/webstatic/en_IN/mktg/hero-images/HOST-MOTHER-2015-Paypal_HDFC.jpg");*/
+  background-image: url("../../../webstatic/en_IN/mktg/hero-images/Landing-Page-yoga-India-1600X900px_No-copy.jpg");
+  background-repeat: no-repeat;
+ }
+
+
+@media (orientation: portrait) {
+  .hero-bg img {
+   display: none;
+  }
+ }
+
+@media (orientation: portrait) {
+.hero-bg img {
+display: none;
+}
+}
+.panel {
+    padding: 50px 0;
+}
+.containerCentered {
+max-width: 90.142857em;
+}
+p.contentOne {
+    margin-top: 100px;
+    color: #777;
+    font-size: 1.071rem;
+}
+
+p.categoryShop {
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#shops h2.pulloutHeadline {
+margin-bottom: 30px;
+}
+h3.meduim{
+font-size: 1.071rem;
+font-weight: bold;
+line-height: 1.4em;
+}
+
+.shops .row-fluid {
+background: transparent;
+background-repeat: no-repeat;
+padding-top: 0;
+
+}
+
+.shops .row-fluid.shop{
+    padding-top: 0;
+}
+
+
+.parallax-bg {
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pulloutHeadline {
+padding-bottom: 30px;
+}
+
+#shops5 .shop {
+padding-top: 0;
+}
+
+#shops5.panel .panel-img{margin:0;}
+
+#shops5.panel .shop-image{ padding: 30px 0;}
+#shops5.panel .span3{ padding-top: 0;}
+
+html[data-device-type="dedicated"] .shop p {
+min-height: 20px;
+height: auto;
+}
+
+/*sticky nav*/
+.merchant-links-bar {
+    text-align: right;
+    line-height: 46px;
+}
+.merchant-links {
+    padding-left: 20px;
+    font-weight: normal;
+}
+.merchant-links-panel {
+    padding: 20px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.merchant-links-panel .span6 {
+    line-height: 40px;
+}
+.light .span3.merchant-panel {
+    border-color: #fff;
+}
+.merchant-links-panel .btn {
+    line-height: 1.8em;
+    min-width: 235px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+html[data-device-type="portable"] .merchant-links-panel .btn {
+    -webkit-transition: all 0 ease 0;
+    transition: all 0 ease 0;
+}
+
+.floating-bar, .floating-bar-spacer {
+    background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    left: 0;
+    overflow: hidden;
+    padding: 10px;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 5001;
+}
+.floating-bar.on {
+    position: fixed;
+}
+.floating-bar.on .btn {
+    opacity: 1;
+}
+
+.floating-bar-spacer {
+    display: none;
+}
+.floating-bar-spacer.on {
+    display: block;
+}
+.floating-bar.on .btn {
+    visibility: visible;
+}
+.merchant-links-panel {
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.hero-hugger-spacer {
+    height: 80px;
+    overflow: hidden;
+}
+#sticky-nav, .floating-bar-spacer {
+    
+    position: relative;
+    z-index: 2;
+}
+
+
+
+html[data-device-type="mobile"] #sticky-nav, html[data-device-type="mobile"] .floating-bar-spacer {
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .hero-hugger-spacer {
+    height: 0;
+}
+.floating-bar-spacer {
+    z-index: 1;
+}
+#sticky-nav {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    background: #fff;
+}
+#sticky-nav .controls {
+    text-align: right;
+}
+#sticky-nav.on {
+    margin-top: 0;
+    position: fixed;
+    z-index: 99;
+}
+#sticky-nav form {
+    margin-top: 0;
+}
+#fixed-top > .table-row > #hero {
+    vertical-align: middle;
+}
+.hero-hugger-spacer {
+    background-color: #fff;
+}
+
+html[data-device-type="mobile"] .lightContent h2,
+html[data-device-type="mobile"] .lightContent h3,
+html[data-device-type="mobile"] .lightContent p,
+html[data-device-type="mobile"] .lightContent a
+{
+    color: #fff;
+}
+
+
+
+
+/* center align image component within background */
+
+html[data-device-type="mobile"] .hero-bg{
+    background-position: 80% top;
+}
+
+/* footer */
+
+#shops6 footer{ 
+    text-align: center; 
+    color: #fff;
+    position: absolute;
+    bottom: -60px; 
+    left: 0; 
+    right: 0;
+  }
+
+  .hero-bg .parasub{
+    font-size: 1.071rem;
+    line-height: 1.5em;
+    margin-top: 30px;
+  }
+
+  .row-fluid .heroBtn{
+    margin-top: 10px;
+  }
+
+  .row-fluid .heroBtn:after{
+    clear: both; 
+    content: ''; 
+    display: block;
+    }
+
+    p.contentOne{
+      clear: both;
+    }
+
+    /* hero banner */
+
+    .hero-bg p.hero-special-offer {
+      font-size: 14px;
+    }
+
+    .hero-bg p.hero-special-offer strong {
+      font-weight: bold;
+    }
+
+    html[data-device-type="dedicated"] .hero-bg p.hero-special-offer {
+      margin-top: 10px;
+    }
+
+     html[data-device-type="portable"] .hero-bg p.hero-special-offer {
+      margin-top: 10px;
+    }
+
+     html[data-device-type="mobile"] .hero-bg p.hero-special-offer {
+      padding-top: 0;
+    }
+
+    html[data-device-type="portable"] .hero-bg .editorial-container{
+      height: auto; 
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+
+     html[data-device-type="mobile"] .hero-bg .parasub{
+        margin-top: 10px;
+        padding-bottom: 10px;
+     }
+
+     html[data-device-type="mobile"] p.contentOne{
+        margin-top: 40px;
+     }
+
+     html[data-device-type="portable"] .hero-bg p{
+         padding-right: 20px;
+        }
+
+
+    html[data-device-type="portable"] .row-fluid .container4d2p1m [class*="span"] {
+        padding-top: 0;
+    }
+
+   html[data-device-type="mobile"] #shops5.panel .shop-image{padding: 15px 0;}
+
+
+
+.shops.panel .span-pp-2:first-child,
+html[data-device-type="portable"] #shops2 .span-pp-2:first-child,
+html[data-device-type="mobile"] #shops2 .span-pp-2:first-child
+{
+        margin-left: 0;
+    }
+
+
+.shops.panel .span-pp-2{
+    padding-top: 30px;
+}   
+
+ /* adjust widths */
+
+    html[data-device-type="portable"] .shops.panel .span-pp-2{
+        width:32%;
+        margin-left:2%; 
+    }
+
+    html[data-device-type="mobile"] .shops.panel .span-pp-2{
+        width:48.5%;
+        margin-left:3%; 
+    }
+
+    html[data-device-type="mobile"] .row-fluid .container4d2p1m [class*="span"]{float: left;}
+   
+
+   /* nth child adjustments */
+
+   html[data-device-type="dedicated"] .shops.panel  .span-pp-2:nth-child(4n + 1),
+   html[data-device-type="dedicated"] .shops.panel .span-pp-2.child_4n-1, /* no native nth child support */
+
+   html[data-device-type="portable"] .shops.panel .span-pp-2:nth-child(3n + 1),
+   html[data-device-type="portable"] .shops.panel .span-pp-2.child_3n-1, /* no native nth child support */
+
+   html[data-device-type="mobile"] .shops.panel .span-pp-2:nth-child(2n + 1),
+   html[data-device-type="mobile"] .shops.panel .span-pp-2.child_2n-1 /* no native nth child support */
+   {
+        clear: left; margin-left: 0;
+   }
+
+   .promobox,
+   .panel p.promobox,
+   html[data-device-type="mobile"] p.promobox
+   {
+              padding-bottom: 0;
+              min-height: 10px;
+              margin-bottom: 5px;
+            }
+
+   .promocode,
+   .panel p.promocode,
+   html[data-device-type="mobile"] p.promocode
+   {
+          display: block;
+          float: left;
+          clear: left;
+          max-width: 100%;
+          padding: 8px 25px;
+          margin-bottom: 10px;
+          color: #000;
+          background: #fff;
+          font-weight: bold;
+          border: 1px solid #bfbfbf;
+          border-radius: 5px;
+          -moz-box-sizing: border-box;
+          text-align: center;
+   }
+
+
+   .promocode + a,
+   .panel p.promocode + a,
+   html[data-device-type="mobile"] p.promocode + a{
+          clear: left;
+          float: left;
+   }
+
+     /* adjusting navbar for desktops*/
+
+     html[data-device-type="dedicated"] .row-fluid [class*="span"].merchant-links-bar{
+        float: right;
+        width:80%;
+        text-align: right;
+     } 
+
+     html[data-device-type="dedicated"] .row-fluid [class*="span"].merchant-links-bar:after{
+       clear: both; 
+       content: ''; 
+       display: block;
+     }
+
+     html[data-device-type="dedicated"] .row-fluid .merchant-links{
+        display: inline-block;
+        vertical-align: top;
+        line-height: 1.5em;
+        padding: 3px 0 10px 100px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+     }  
+
+     html[data-device-type="dedicated"] .row-fluid.on .merchant-links{
+        vertical-align: middle;
+        padding-top: 5px;
+     }
+
+     /* html[data-device-type="dedicated"]  a[href*="#shops4"]{
+          font-weight: bold;
+      }  */
+
+      html[data-device-type="dedicated"] .panel{
+        padding-top: 50px;
+      }
+
+      
+
+      #buyer-protection{
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }    
+
+        html[data-device-type="portable"] .shops.panel .span-pp-2,
+        html[data-device-type="portable"] .shops.panel .span-pp-2
+        {
+          padding-top: 15px;
+        }
+
+        /* temp fix */
+
+        .validfrompadding{
+          height: 5px;
+        }
+
+
+      .panel .panel-img{ margin-bottom: 10px;}
+
+      /* sticky nav mobile */
+
+       html[data-device-type="mobile"] .merchant-links-panel.floating-bar{
+          padding: 5px 0;
+       }
+
+       html[data-device-type="mobile"] .panel{
+          padding-top: 20px;
+       }
+
+       html[data-device-type="mobile"] #buyer-protection{
+         padding-top: 50px;
+       }
+
+         html[data-device-type="mobile"] p.promocode{
+
+          padding: 8px 15px;
+
+         }
+
+         html[data-device-type="mobile"] .span-pp-2 p{
+           font-size: 13px;
+         }
+
+         html[data-device-type="mobile"] .span-pp-2 h3.meduim{
+            font-size: 13px;
+         }
+
+
+         .shop-link-wrap{
+                clear:left;
+                padding-bottom: 0;
+        }
+
+         /* adjust the background */
+
+         /* partner banner */
+
+         html[data-device-type="dedicated"] .partner-hero.hero-bg, 
+         html[data-device-type="dedicated"] .partner-hero.hero-bg .parallax-bg {
+              background-position: 60% 21%;
+         }
+
+         html[data-device-type="portable"] .partner-hero.hero-bg, 
+         html[data-device-type="portable"] .partner-hero.hero-bg .parallax-bg {
+              background-position: 75% 21%;
+         }
+
+         @media only screen and (orientation: portrait) {
+            html[data-device-type="portable"] .partner-hero.hero-bg, 
+            html[data-device-type="portable"] .partner-hero.hero-bg .parallax-bg {
+              background-position: 65% 22%;
+            }  
+         }
+
+         @media only screen and (max-width: 700px) and (orientation: portrait) {
+            html[data-device-type="portable"] .partner-hero.hero-bg, 
+            html[data-device-type="portable"] .partner-hero.hero-bg .parallax-bg {
+              background-position: 56% 23%;
+            }  
+         }
+
+
+         html[data-device-type="mobile"] .hero-bg {
+        background-position: right top;
+        }
+
+        .editorial-container.ui-hidden-mobile{
+          display: none;
+        }
+
+        /* Banner adjustments */
+
+        @media only screen and (min-width : 1300px) {
+            html[data-device-type="dedicated"] .hero-bg, 
+            html[data-device-type="dedicated"] .hero-bg .parallax-bg {
+              background-position: 60% -10px;
+            }
+
+        }
+
+        @media only screen and (min-width : 1400px) {
+            html[data-device-type="dedicated"] .hero-bg, 
+            html[data-device-type="dedicated"] .hero-bg .parallax-bg {
+              background-position: 60% -100px;
+            }
+
+        }
+
+        @media only screen and (min-width : 2000px) {
+            html[data-device-type="dedicated"] .hero-bg, 
+            html[data-device-type="dedicated"] .hero-bg .parallax-bg {
+              background-position: 60% 50px;
+            }
+
+        }
+
+        @media only screen and (orientation: landscape) {
+          
+          html[data-device-type="mobile"] .hero-bg {
+            background-position: right top;
+            background-size: auto 385px;
+          }
+
+          html[data-device-type="mobile"] .hero-bg:not(.no-img) .editorial-cell {
+            padding-top: 410px;
+          }
+
+}
+
+@media only screen and (min-width : 700px) and (orientation: landscape) {
+          
+          html[data-device-type="mobile"] .hero-bg {
+            background-position: right top;
+            background-size: auto 415px;
+          }
+
+          html[data-device-type="mobile"] .hero-bg:not(.no-img) .editorial-cell {
+            padding-top: 440px;
+          }
+
+}
+
+/* accomodate large coupon codes in the mobile viewport */
+@media only screen and (orientation: portrait) {
+          
+            html[data-device-type="mobile"] p.promocode {
+              padding: 8px 5px;
+            }
+           
+        }
+
+/* very large resolutions */
+
+@media only screen and (min-width : 1700px) {
+          html[data-device-type="dedicated"] .partner-hero.hero-bg, 
+          html[data-device-type="dedicated"] .partner-hero.hero-bg .parallax-bg {
+            background-position: 60% center;
+          }
+}
+
+@media only screen and (min-width : 2200px) {
+          html[data-device-type="dedicated"] .partner-hero.hero-bg, 
+          html[data-device-type="dedicated"] .partner-hero.hero-bg .parallax-bg {
+            background-position: 60% 42%;
+          }
+}
+
+/* This is for small ICICI logo which is above Hero Banner Heading */
+
+html[data-device-type="mobile"] .hero-bg .editorial-cell{
+  position: relative;
+} 
+  
+
+html[data-device-type="mobile"] .bank {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+html[data-device-type="dedicated"] .bank {
+  position: relative;
+  left: 5px;
+  bottom: 20px;
+ }
+ 
+    
+html[data-device-type="portable"] .bank {
+  position: relative;
+  left: 5px;
+  bottom: 20px;
+ }
+
+@media (orientation: portrait) {
+  .hero-bg .bank img {
+    display: block;
+  }
+}        
+
+/* For iPhone 6 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait){
+  .hero-bg .icici, .hero-bg .hdfc{
+    width: 86px;
+    height: 48px;
+  }
+}
+
+/* For iPhone 6 Plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait){\
+  .hero-bg .icici, .hero-bg .hdfc{
+    width: 86px;
+    height: 48px;
+  }
+}
+
+/* For iPhone 5 & 5Plus */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
+  .hero-bg .icici, .hero-bg .hdfc{
+    width: 86px;
+    height: 48px;
+  }  
+}
+
+/* For iPhone 2G, 3G, 4, 4S */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+  .hero-bg .icici, .hero-bg .hdfc{
+    width: 86px;
+    height: 48px;
+  }
+}
+

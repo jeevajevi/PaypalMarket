@@ -1,0 +1,92 @@
+.hero-bg {
+  background-image: url("../../../webstatic/en_IN/mktg/banners/in-debitcard.jpg");
+  background-repeat: no-repeat;
+  background-position: 56% top;
+}
+html[data-device-type="mobile"] .hero-bg {
+  background-position: 80% top;
+  background-size: auto 265px;
+}
+html[data-device-type="portable"] .hero-bg {
+  background-position: 58% top;
+}
+/*new css*/
+.row-fluid .merchant-panel {
+  background: #fff;
+  padding: 16px 30px;
+  border: 1px solid;
+  border-color: #E5E5E5 #D9D9D9 #CCC;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row-fluid .merchant-Cpanel {
+  background: #fff;
+  padding: 16px;
+  border: 1px solid;
+  border-color: #E5E5E5 #D9D9D9 #CCC;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#get-started-carousel {
+  padding: 20px 0 50px 0;
+}
+#get-started-carousel .offerPrice {
+  width: 68%;
+  margin: 0 auto;
+}
+#more-than-payments {
+  padding: 20px 0 50px 0;
+}
+.topSpace {
+  padding: 40px 0 20px 0;
+}
+.brdLine {
+  border-top: 1px solid #ccc;
+}
+.iconSizeaddbank {
+font-size: 69px;
+margin: 10px 0;
+color: #0983CE;
+}
+#more-than-payments .boxColor {
+  background: #f5f5f5;
+}
+.payment-block li {
+overflow: hidden;
+}
+.payment-block li img{
+  width: 9%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 8px; 
+}
+/*.payment-block li:last-child {
+  margin-top: 10px;  
+}*/
+.payment-block li p{
+  overflow: hidden;
+}
+.payment-block p.contentPara {
+padding-bottom: 0;
+}
+.payment-block li:nth-child(2) {
+  margin-top: 10px;  
+}
+#get-started-carousel .span4 img {
+  height: auto;
+}
+
+/*@media (orientation: portrait) {
+    html[data-device-type="mobile"] .fontText {
+        margin-left: 28%;
+    }
+    
+}*/
+@media (orientation: landscape) {
+    html[data-device-type="mobile"] #get-started-carousel .offerPrice {
+    width: 54%;
+    margin: 0 auto;
+  }
+   
+}
+

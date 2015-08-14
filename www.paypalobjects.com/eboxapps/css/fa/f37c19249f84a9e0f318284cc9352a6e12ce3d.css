@@ -1,0 +1,176 @@
+/* IN/en/buyer-dispute-resolution/resources/css/page.css */
+.hero-bg, .hero-bg .parallax-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/hero-images/dispute-claims-management-hero_n1_1x.jpg");
+}
+
+.n3, 
+.n3, .parallax-bg{
+    background-image: url("../../../webstatic/en_AU/mktg/feature-images/dispute-claims-management-n1_1x.jpg");
+}
+
+.listOne {
+    list-style: disc;
+    margin: -5% 0 0 3px;
+    text-align: left;
+}
+
+.listItem {
+    list-style:decimal;
+    margin-left: 20px;
+}
+
+.listItem > li {
+    margin-top: 2%;
+    width: 643px;
+}
+
+
+.pulloutHeadline {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.pullout {
+    padding: 30px 0;
+}
+
+.listOne > li {
+    margin-top: 1%;
+}
+
+.pulloutPara {
+    font-size: 1.14286rem;
+    line-height: 1.5em;
+    padding-bottom: 35px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.expand-rows {
+    float: left;
+    width: 100%;
+}
+
+.expand{
+    float:left; 
+      margin-right: 20px;
+}
+
+.expanding span {
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    margin: 0 8px 0 4px;
+    border-radius: 3px;
+    background: #fff;
+}
+.expand-rows { 
+    padding-top: 20px;
+    }
+
+p.expanding.open {
+    height: auto;
+    margin-left: 42px;
+}
+
+.expand:after {
+    line-height: 21px;
+}
+
+.expanding span.ul-layout-accordion{
+     background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin: 0;
+    padding-left: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;        /* Opera/IE 8+ */
+                                    
+}
+
+.expanding span.ulacc-li{
+    display: block; 
+    margin:4px 0 0 0; 
+    height: auto; 
+    background: #fff; 
+    width:100%;
+    position: relative;
+}
+
+.expanding span.layout-div{
+    display: block; 
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+}
+.expanding span.ulacc-li:before{
+    content:'•'; 
+    position:absolute; 
+    left:-15px; top:0; 
+    display:block;
+}
+
+.expanding span.layout-block-para{
+    display: block; 
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    padding: 0 0 20px 0;
+    text-align: left;    
+}
+
+.expanding span.layout-block-para:last-child{
+    padding-bottom: 0;
+}
+
+.expanding span.layout-block-para span.layout-heading{
+    font-weight: bold;
+    display: block; 
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    padding: 0;
+    text-align: left;
+    
+}
+
+.expanding span.layout-group-heading{
+    display: block; 
+    padding: 0 0 4px 0;
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    text-align: left;
+}
+
+.center-block.span8 a{
+color:#009cde;
+}
+
+
+.termHeadline {
+    margin-top: 2%;
+}
+
+.editorial p {
+    padding-bottom: 0;
+}
+
+.span2.steps {
+    width: 23%;
+}
+
+.editorial-cell {
+    display: inline-block;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+

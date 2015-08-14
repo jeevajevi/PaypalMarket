@@ -1,0 +1,597 @@
+/********************* //merchant/resources/css/pages.css ****************************/
+section {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.hero-hugger-spacer {
+    height: 80px;
+    overflow: hidden;
+}
+#sticky-nav, .floating-bar-spacer {
+    margin-top: -80px;
+    position: relative;
+    z-index: 2;
+}
+html[data-device-type="mobile"] #sticky-nav, html[data-device-type="mobile"] .floating-bar-spacer {
+    margin-top: 0;
+}
+html[data-device-type="mobile"] .hero-hugger-spacer {
+    height: 0;
+}
+.floating-bar-spacer {
+    z-index: 1;
+}
+#sticky-nav {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+#sticky-nav .controls {
+    text-align: right;
+}
+#sticky-nav.on {
+    margin-top: 0;
+    position: fixed;
+    z-index: 99;
+}
+#sticky-nav form {
+    margin-top: 0;
+}
+#fixed-top > .table-row > #hero {
+    vertical-align: middle;
+}
+.hero-hugger-spacer {
+    background-color: #fff;
+}
+.hero-bg .editorial-container {
+    display: table;
+    width: 100%;
+}
+.hero-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/banners/IN-herobg.jpg");
+}
+.hero-bg ul {
+    padding-left: 10px;
+}
+#hero .span12 > .editorial-cell {
+    width: 100%;
+}
+.hero-bg .transaction-tray {
+    max-width: 330px;
+}
+.transaction-tray p, .merchant p {
+    font-size: 13px;
+    font-size: 0.92857142857143rem;
+    line-height: 1.25em;
+}
+.transaction-tray p {
+    line-height: 2em;
+    padding-bottom: 0;
+}
+.transaction-tray p:first-child {
+    padding-top: 1px;
+    border-bottom: 1px solid #666;
+    line-height: 2.5em;
+}
+.transaction-tray a {
+    font-weight: bold;
+}
+.transaction-tray p b {
+    font-size: 16px;
+}
+.transaction-tray p span {
+    display: inline-block;
+}
+.transaction-tray p span:first-child {
+    margin-right: 6px;
+    padding-right: 6px;
+}
+.transaction-tray p:last-child, .transaction-tray a {
+    font-size: 11px;
+    line-height: 1.5em;
+    padding-top: 8px;
+}
+.merchant-heroTray .heroBtn {
+    width: 215px;
+    max-width: none;
+    line-height: 2.5em;
+}
+.phone-line {
+    padding-left: 20px;
+    font-weight: 500;
+    background: transparent url("../../../webstatic/en_US/mktg/wright/merchant/phone-icon.png") 2px center no-repeat;
+    background-size: 11px 13px;
+    line-height: 2em;
+}
+.hero-bg .phone-line {
+    margin-top: 12px;
+}
+#hero-down-arrow {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin: -6px 0 0 -19px;
+}
+#get-started, #more-than-payments-container {
+    padding: 60px 0;
+}
+#get-started-carousel, #more-than-payments {
+    margin-top: 30px;
+}
+.merchant-links-bar {
+    text-align: right;
+    line-height: 46px;
+}
+.merchant-links {
+    padding-left: 20px;
+    font-weight: normal;
+}
+.merchant-links-panel {
+    padding: 20px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.merchant-links-panel .span6 {
+    line-height: 40px;
+}
+.light .span3.merchant-panel {
+    border-color: #fff;
+}
+.merchant-links-panel .btn {
+    line-height: 1.8em;
+    min-width: 235px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+html[data-device-type="portable"] .merchant-links-panel .btn {
+    -webkit-transition: all 0 ease 0;
+    transition: all 0 ease 0;
+}
+.floating-bar.on .btn {
+    opacity: 1;
+}
+ul.merchant-bullets {
+    margin-left: 15px;
+    list-style: disc;
+}
+.merchant-heroTray {
+    background-color: rgba(36, 29, 28, 0.8);
+    padding: 30px 30px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-width: 510px;
+}
+.row-fluid .merchant-panel {
+    background: #fff;
+    padding: 30px 16px;
+    border: 1px solid;
+    border-color: #E5E5E5 #D9D9D9 #CCC;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.row-fluid .disabledLink {
+    cursor: auto;
+}
+.row-fluid .merchant-panel {
+	 min-height: 345px;
+}
+.disabledLink p:last-child {
+    padding: 0;
+}
+#get-started .merchant-panel .contentPara {
+    min-height: 130px;
+}
+#more-than-payments .merchant-panel .contentPara {
+    min-height: 70px;
+}
+.panel-img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+html[data-device-type="mobile"] .panel-img {
+    margin-bottom: 0;
+}
+.chart-bgcolor {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: #23a0ef;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #23a0ef), color-stop(100%, #07447b));
+    background: -webkit-radial-gradient(center, ellipse cover, #23a0ef 0%, #07447b 100%);
+    background: -webkit-radial-gradient(center, ellipse, #23a0ef 0%, #07447b 100%);
+    background: radial-gradient(ellipse at center, #23a0ef 0%, #07447b 100%);
+}
+.chart-bgcolor .row-fluid {
+    background: transparent;
+}
+html .chart-bgcolor .containerCentered:first-child {
+    padding: 0;
+}
+.chart-bgcolor h3 {
+    white-space: nowrap;
+}
+.chart-bgcolor .pulloutPara {
+    color: #e2f4ff;
+    margin-bottom: 20px;
+}
+.chart-bgcolor .sideKickHeadline {
+    margin-bottom: 10px;
+}
+/* Don't resize on desktop */
+ .chart-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.chart-container img {
+    width: 100%;
+    min-width: 1004px;
+    height: 239px;
+}
+.chart-container .chart-marker {
+    padding: 4px;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    color: #065f9d;
+    font-size: 10px;
+    font-weight: bold;
+}
+.chart-container #marker1 {
+    left: 9.06374501992%;
+    top: 152px;
+}
+.chart-container #marker2 {
+    left: 29.980079681275%;
+    top: 96px;
+}
+.chart-container #marker3 {
+    left: 51.09561752988%;
+    top: 31px;
+}
+.chart-container #marker4 {
+    left: 72.111553784861%;
+    top: 69px;
+}
+.chart-container .chart-marker:after {
+    content:'';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top-color: #fff;
+}
+.chart-container .chart-marker.top:after {
+    bottom: auto;
+    top: -20px;
+    border-top-color: transparent;
+    border-bottom-color: #fff;
+}
+.chart-bullets {
+    font-size: 13px;
+    line-height: 17px;
+    color: #e2f4ff;
+    margin: 0;
+    white-space: normal;
+}
+.chart-bullets li {
+    padding-left: 20px;
+    background: transparent url(../../../webstatic/en_US/mktg/wright/merchant/blue-check.png) left 2px no-repeat;
+    background-size: 11px 13px;
+}
+.chart-bgcolor .legal-notes {
+    color: #e2f4ff;
+}
+@media (max-width: 71.71428571428571em) {
+    .chart-bgcolor h3 {
+        white-space: normal;
+    }
+}
+
+.chart-links {
+    margin-top:20px;
+}
+.excite-bg {
+    background: transparent url(../../../webstatic/en_US/mktg/wright/merchant/video-bottom.jpg) center top no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+.play {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.play > span {
+    content:'';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    text-indent: -999em;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 36px;
+}
+.play > span:after {
+    content:'';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -10px;
+    overflow: hidden;
+    border: 24px solid transparent;
+    border-width: 12px 24px;
+    border-left-color: #fff;
+}
+.merchant .expander {
+    display: none;
+}
+.merchant p {
+    line-height: 1.5em;
+}
+.merchant .btn {
+    margin: 26px 0;
+    line-height: 2.5em;
+    width: 92%;
+}
+.merchant h4 {
+    padding: 10px 0 0;
+}
+.merchant .transaction-tray p:first-child {
+    line-height: 2.5em;
+}
+.panel-three {
+    padding-top: 60px;
+}
+.panel-three a {
+    font-size: 14px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.panel-three .sideKickHeadline {
+    /* based off of four panel styles */
+    padding-bottom: 25px;
+}
+#signup-modal h4 {
+    margin: 20px 0;
+}
+#signup-modal .btn {
+    max-width: 46%;
+}
+#signup-modal ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+html[data-device-type="mobile"] #signup-modal .btn {
+    max-width: none;
+    margin-bottom: 14px;
+}
+html[data-device-type="mobile"] #signup-modal ul {
+    margin-bottom: 14px;
+}
+html[data-device-type="portable"] .merchant-links-panel, html[data-device-type="mobile"] .merchant-links-panel {
+    background: #f4f4f4;
+    padding: 16px 0;
+}
+html[data-device-type="portable"] .hero-bg {
+    background-position: center center;
+    background-size: cover;
+}
+html[data-device-type="portable"] #sticky-nav #jump-bar-select {
+    height: 46px;
+}
+html[data-device-type="mobile"] .hero-bg {
+    background: url("../../../webstatic/en_US/mktg/wright/merchant/hero-bg.jpg") center center no-repeat;
+    background-size: auto 120%;
+}
+@media (min-width: 480px) {
+    html[data-device-type="mobile"] .hero-bg {
+        background-size: auto 160%;
+    }
+}
+html[data-device-type="mobile"] .merchant-heroTray {
+    background-color: transparent;
+    padding: 0;
+}
+html[data-device-type="mobile"] .hero-bg .editorial-cell {
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+html[data-device-type="portable"] #get-started, html[data-device-type="portable"] #more-than-payments-container {
+    padding: 40px 0;
+}
+html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth .merchant-panel {
+    width: 90%;
+    min-height: 420px;
+    margin-left: 10px;
+}
+html[data-device-type="portable"] #get-started-carousel .merchant-panel {
+    width: 48%;
+    margin-bottom: 30px;
+    min-height: 330px;
+}
+html[data-device-type="portable"] #more-than-payments .merchant-panel h3 {
+    min-height: 80px;
+}
+html[data-device-type="portable"] #get-started-carousel .merchant-panel:nth-child(2n+1) {
+    margin-left: 0;
+}
+html[data-device-type="portable"] #get-started .merchant-panel .contentPara {
+    min-height: 100px;
+}
+html[data-device-type="portable"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 140px;
+}
+@media all and (max-width: 768px) {
+    html[data-device-type="portable"] #more-than-payments .merchant-panel h3, html[data-device-type="portable"] #more-than-payments .merchant-panel .contentPara {
+        min-height: 110px;
+    }
+}
+html[data-device-type="mobile"] .heroBtn {
+    margin: 0 auto 30px;
+}
+html[data-device-type="mobile"] #hero-down-arrow {
+    bottom: 2%;
+}
+html[data-device-type="mobile"] .merchant-links-panel .span6.pull-right {
+    width: auto;
+    float: none;
+}
+html[data-device-type="mobile"] .merchant-panel:first-child {
+    margin-left: 0;
+}
+html[data-device-type="mobile"] #more-than-payments .sideKickHeadline {
+    min-height: 72px;
+}
+html[data-device-type="mobile"] #more-than-payments-container {
+    padding-top: 20px;
+}
+html[data-device-type="mobile"] .pullout,  html[data-device-type="portable"] .pullout{
+    /*background: #0079c1;*/
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
+/*html[data-device-type="mobile"] .pullout h2, html[data-device-type="portable"] .pullout h2 {
+    color: #fff;
+}*/
+html[data-device-type="mobile"] .excite-bg {
+    height: 501px;
+}
+html[data-device-type="mobile"] .excite-bg .editorial-cell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+html[data-device-type="mobile"] .play > span {
+    top: 30%;
+}
+html[data-device-type="mobile"] .panel-three {
+    padding-top: 0;
+}
+html[data-device-type="mobile"] .panel-three .sideKickHeadline {
+    margin-left: 10px;
+}
+html[data-device-type="mobile"] .excite-bg .editorial-container {
+    padding: 200px 0 0;
+    text-align: center;
+}
+html[data-device-type="mobile"] #get-started, html[data-device-type="mobile"] #more-than-payments-container {
+    padding: 40px 0 20px;
+}
+html[data-device-type="mobile"] #get-started-carousel, html[data-device-type="mobile"] #more-than-payments {
+    margin-top: 10px;
+}
+html[data-device-type="mobile"] .merchant .transaction-tray {
+    margin: 0;
+}
+html[data-device-type="mobile"] .merchant .phone-line {
+    margin-bottom: 20px;
+}
+html[data-device-type="mobile"] .merchant .btn {
+    width: 100%;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-right: 0;
+    padding-top: 0;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows h4, html[data-device-type="mobile"] .merchant .expanding-rows p {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows h4 {
+    padding-bottom: 10px;
+}
+html[data-device-type="mobile"] .merchant .expander {
+    position: relative;
+    display: block;
+    width: 21px;
+    height: 21px;
+    text-indent: -999em;
+    overflow: hidden;
+    border: 1px solid #4d4d4d;
+    border-radius: 14px;
+    float: right;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+html[data-device-type="mobile"] .merchant .expander:after {
+    content:'+';
+    display: block;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    font-size: 21px;
+    line-height: 16px;
+    text-align: center;
+    /*color: #4d4d4d;*/
+    color: #fff;
+    top: 0;
+    left: 0;
+    text-indent: 0;
+}
+html[data-device-type="mobile"] .merchant .expander.open:after {
+    content:'–';
+}
+html[data-device-type="mobile"] .merchant .expandable {
+    height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+html[data-device-type="mobile"] #get-started .merchant-panel .contentPara {
+    min-height: 130px;
+}
+html[data-device-type="mobile"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 110px;
+}
+html[data-device-type="mobile"] .merchant .expandable.open {
+    height: 50px;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows p.expandable {
+    border-bottom: 1px solid #4d4d4d;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows:last-child p.expandable:last-child {
+    border-bottom: none;
+}
+html[data-device-type="mobile"] #fatfooter-container .row-fluid:last-child {
+    padding-bottom: 20px;
+}
+html[data-device-type="mobile"] #fixed-top .hero-bg .editorial-cell {
+    padding-top: 0;
+    text-align: center;
+}
+@media (orientation: portrait) and (max-width: 1024px) {
+    html[data-device-type="portable"] .row-fluid .offset1 {
+        margin-left: 3%;
+    }
+}
+.n1{
+    background-image: url("../../../webstatic/en_IN/mktg/feature-images/home_n2_IN.jpg");
+}
+.editorial p{
+    color: #fff;
+    padding-bottom: 0;
+}
+html[data-device-type="mobile"] .editorial p{
+    color: #777;
+}
+.editorial .legal-notes{
+    margin: 0;
+}
+

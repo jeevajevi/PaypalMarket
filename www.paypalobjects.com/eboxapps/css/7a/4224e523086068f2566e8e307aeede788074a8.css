@@ -1,0 +1,80 @@
+.hero-bg,
+.hero-bg .parallax-bg {
+    background-image: url("../../../webstatic/mktg/manage-accounnt/Manage-Business-Account-hero.jpg");
+}
+
+.n1,
+.n1 .parallax-bg {
+    background-image: url("../../../webstatic/mktg/manage-accounnt/Manage-Business-Account-n1_1x.jpg");
+}
+
+.n2 {
+    background-image: url("../../../webstatic/mktg/manage-accounnt/Manage-Business-Account_n2_1x.png");
+ }
+
+.n3, 
+.n3, .parallax-bg{
+    background-image: url("../../../webstatic/mktg/manage-accounnt/Manage-Business-Account-n3_1x.jpg");
+}
+
+.four-panel .span3 {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border-color: #e5e5e5 #d9d9d9 #cccccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    min-height: 333px;
+    padding: 20px;
+  }
+
+.four-panel .span3 .contentLink {
+    margin-top: 20px;
+}
+
+.terms {
+    background: #f5f5f5;
+    min-height: 233px;
+    padding: 40px 0;
+}
+
+.expand-rows {
+    float: left;
+    width: 100%;
+}
+
+.expand{
+    float:left; 
+      margin-right: 20px;
+}
+
+.expanding span {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    margin: 0 8px 0 23px;
+    border-radius: 3px;
+    background: #444;
+}
+
+.span3 h3.medium {
+    min-height: 50px;
+}
+
+.hori-list {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0;
+    font-size: medium;
+}
+
+.height-hori-list {
+    min-height: 105px;
+}
+
+
+
+.span3 > p {
+    min-height: 180px;
+}
+

@@ -1,0 +1,26 @@
+.hero-bg, .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/sell_invoice/sell_invoice_hero_bg_1x.jpg");
+}
+.n1, .n1.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/sell_invoice/sell_invoice_n1_1x.jpg");
+}
+.n2 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/sell_invoice/sell_invoice_n2_1x.jpg");
+}
+.n3 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/sell_invoice/sell_invoice_n3_1x.jpg");
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../../../webstatic/mktg/wright/sell_invoice/sell_invoice_n4_1x.jpg");
+}
+.callout b {
+	line-height: 1.4em;
+}
+.callout b.small span.active-digital-wallets, span.active-digital-wallets{
+    display: inline-block;
+    font-size: 3rem;
+}
+.callout b.small span.active-digital-wallets {
+  font-weight: 100;
+}
+

@@ -1,0 +1,82 @@
+﻿.hero-bg, .hero-bg.parallax .parallax-bg {
+background-image: url("../../../webstatic/en_AU/mktg/hero-images/sell-on-ebay-hero.jpg");
+}
+										
+.n3 {
+background-image: url("../../../webstatic/en_AU/mktg/feature-images/sell-on-ebay-n2_1x.png");
+}
+										
+.n4, .n4.parallax .parallax-bg {
+background-image: url("../../../webstatic/en_AU/mktg/feature-images/sell-on-ebay-n1_1x.jpg");
+}
+										
+ul.list-para {
+	list-style-type:disc;
+	list-style-position: inside;
+	margin: 0;
+}
+										
+.editorial-left .editorial-img {
+background-position: 5% bottom;
+}
+										
+.panel {
+	padding: 50px 0;
+}
+										
+a.reverseLink {
+	color: #0079ad;
+}
+										
+.terms {
+	padding: 35px 0;
+}
+										
+.expand {
+	float: left;
+	margin: 2px 8px 0 0;
+}
+										
+.hori-list {
+	margin: 20px 0 0;
+	font-size: 15px;
+	font-size: 1.071rem;
+}
+										
+.expand:after {
+	top: 2px;
+}
+										
+p.expanding {
+	margin: 6px 0 0 32px;
+}
+										
+									
+ul.list-para {
+	list-style-position: outside;
+	margin: 0 0 0 16px;
+}
+										
+.hori-list span {
+display: block;
+float: left;
+height: 6px;
+width: 6px;
+border-radius: 50%;
+background: #777;
+margin: 7px 5px 0 0;
+}
+
+.n4 .editorial-cell h2 {
+	color: #444;
+}
+
+.n4 .editorial-cell p,
+.n4 .editorial-cell {
+	color: #777;
+}
+									
+.estore-link {
+	color: #009CDE !important;	
+}	
+

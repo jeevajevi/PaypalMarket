@@ -1,0 +1,83 @@
+.panel-img {
+    width: 70px;
+    float: left;
+}
+
+.span4.merchant-panel {
+	width: 100%;
+	margin: 20px 0 0;
+}
+
+.span4.merchant-panel .merchant-panel-text {
+	float: left;
+	margin: 18px 0 0 3%;
+	width: 73%;
+}
+
+#payment-methods {
+	border-top: 1px solid #ccc;
+	padding: 45px 0;
+}
+
+.pullout {
+	padding: 55px 0;
+}
+
+.pullout.dark {
+	padding: 90px 0;
+}
+
+.para-list {
+	list-style-type: disc;
+	margin: 0 0 0 35px;
+}
+
+.panel {
+	padding: 45px 0;
+}
+
+.span4.merchant-panel .merchant-panel-text p {
+	padding: 0;
+}
+
+h3.pulloutHeadline {
+	text-align: left;
+}
+
+select {
+	font-size: 16px;
+	font-weight: normal;
+	border-radius: 5px;
+	padding: 12px 0 12px 5px;
+	width: 30%;
+}
+
+.send-payment-list {
+	margin: 20px 0 0;
+}
+
+.send-payment-list li {
+	display: inline-block;
+	margin: 0 2px;
+}
+
+#send li {
+	display: inline-block;
+}
+
+.appended.note {
+    width: 100%;
+    font-size: 11px;
+}
+
+.appended.note sup {
+	font-size: 14px;
+	top: -1px;
+}
+
+@media only screen and (min-width:415px) and (max-width: 736px)  {
+	.span4.merchant-panel .merchant-panel-text {
+		width: 80%;
+	}
+}
+

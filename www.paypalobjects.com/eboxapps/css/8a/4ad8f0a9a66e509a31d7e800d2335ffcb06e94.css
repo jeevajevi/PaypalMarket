@@ -1,0 +1,11 @@
+.organizedList a {
+	padding: 7px 0;
+	font-weight: normal;
+}
+html[data-device-type="mobile"] .contentHead {
+	padding-bottom: 0;
+}
+html[data-device-type="mobile"] .contentLink {
+	padding: 5px 0;
+}
+

@@ -1,0 +1,19 @@
+.hero-bg {
+    background-image: url("../../../webstatic/mktg/wright/request/request_hero_bg_1x_530.jpg");
+}
+.hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/mktg/wright/request/request_hero_bg_1x.jpg");
+}
+.n1, .n1.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/request/request_n1_1x.jpg");
+}
+.n2 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/request/request_n2_1x.jpg");
+}
+.n3 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/request/request_n3_1x.jpg");
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/request/request_n4_1x.jpg");
+}
+

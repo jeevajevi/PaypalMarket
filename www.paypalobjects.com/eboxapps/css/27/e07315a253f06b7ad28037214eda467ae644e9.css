@@ -1,0 +1,16 @@
+.row-fluid .heroBtn {
+	display: block;
+}
+
+.addon-list {
+	display: list-item;
+}
+
+table p {
+	padding-bottom: 0;
+}
+
+.addon-row {
+	display: none;
+}
+

@@ -1,0 +1,21 @@
+.hero-bg, .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/buy_ebay/buy_ebay_hero_bg_1x.jpg");
+}
+.n1, .n1.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/buy_ebay/buy_ebay_n1_1x.jpg");
+}
+.n2 {
+    background-image: url("../../../webstatic/en_HK/mktg/wright/buy_ebay/buy_ebay_n2_1x.jpg");
+}
+.n3 {
+    background-image: url("../../../webstatic/en_HK/mktg/wright/buy_ebay/buy_ebay_n3_1x.jpg");
+	
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/buy_ebay/buy_ebay_n4_1x.jpg");
+}
+
+ html[data-device-type="portable"] #isfm .editorial-cell{
+ 	padding-left: 20px;
+}
+

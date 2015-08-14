@@ -1,0 +1,32 @@
+.hero-bg, .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/send/send_hero_bg_1x.jpg");
+}
+.n1, .n1.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/send/send_n1_1x.jpg");
+}
+.n2 {
+    background-image: url("../../../webstatic/en_IN/mktg/wright/send/send_n2_1x.jpg");
+}
+.n3{
+    background-image: url("../../../webstatic/en_IN/mktg/wright/send/send_n3_1x.jpg");
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_US/mktg/wright/send/send_n4_1x.jpg");
+}
+
+.hero-bg input {
+    margin: 0;
+}
+.hero-bg .controls {
+    margin: 10px 0;
+}
+.hero-bg .controls input[type="text"], .hero-bg input[type="submit"] {
+    width: 300px;
+}
+.hero-bg .controls input.amount-currency {
+    width: 230px;
+}
+.callout b.small {
+    line-height: 1.4em;
+}
+

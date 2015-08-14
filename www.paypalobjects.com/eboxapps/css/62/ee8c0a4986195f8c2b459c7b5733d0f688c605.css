@@ -1,0 +1,419 @@
+.hero-bg,
+.hero-bg .parallax-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/hero-images/account-limitation-hero_n1_1x.jpg");
+}
+html[data-device-type="portable"] .hero-bg{
+    background-position: 67%;
+}
+
+.four-panel .span4 {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border-color: #e5e5e5 #d9d9d9 #cccccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 20px;
+  }
+  h4, .medium {
+    min-height: 50px;
+}
+
+.four-panel .span4 .contentLink {
+    margin-top: 20px;
+}
+.terms {
+    background: #f5f5f5;
+    min-height: 233px;
+    padding: 40px 0;
+}
+
+.expand-rows {
+    float: left;
+    width: 100%;
+}
+
+.expand{
+    float:left; 
+      margin-right: 20px;
+}
+
+.expanding span {
+    display: inline-block;
+    height: 0;
+    width: 80%;
+    margin: 0 8px 0 4px;
+    border-radius: 3px;
+    background: #444;
+}
+.expand-rows { 
+    padding-top: 20px;
+    }
+
+
+.span3 h3.medium {
+    min-height: 50px;
+}
+
+.span3 > p {
+    min-height: 135px;
+}
+
+.hori-list {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0;
+    font-size: medium;
+}
+
+.height-hori-list {
+    min-height: 105px;
+}
+
+p.expanding.open {
+    height: auto;
+    margin-left: 42px;
+}
+
+.expand:after {
+    line-height: 21px;
+}
+
+.span4 {
+    height: auto;
+}
+
+
+.span4.merchant-panel {
+    height: auto;
+    width: 26%;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 0 0 0 2%;
+    padding: 2%;
+    background: #fff;
+}
+.span4.merchant-panel h3 {
+    font-size: 24px;
+    min-height: 62px;
+}
+
+h2.pulloutHeadline {
+    margin: 50px 0 0;
+    text-align: center;
+}
+
+.pulloutPara {
+    padding-top: 25px;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 0;
+}
+
+#get-started-carousel {
+    padding: 35px 0;
+}
+
+.span6.merchant-panel p {
+    min-height: 1px;
+    padding: 0;
+}
+
+.organizedList > li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.featureiconImage {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.featureiconImage > img {
+    width: 70px;
+}
+
+.listItem {
+    list-style: disc outside none;
+    margin-left: 20px;
+}
+
+.listItem2 {
+    list-style: disc outside none;
+    list-style-position: inside;
+}
+
+}
+.listItem2 > li:last-child{
+    margin-bottom: 15px;
+}
+
+/** New Custom Styling *****/
+.row-fluid .heroBtn,
+.hero-bg .hatch{
+    display: none;
+}
+
+/*   Popup css property   */
+
+.lightBoxSP {
+    list-style-type: none;
+    width: 50%;
+}
+.lightBoxSP > li {
+    margin-bottom: 5px;
+}
+.lightBoxSP li h6{
+    font-size: 1.1em;
+    padding: 5px 0px 5px 20px;
+    cursor: pointer;
+}
+.lightBoxSP li.current h6{
+    background: #f5f5f5;
+}
+.lightBoxSP li ul{
+    list-style-type: disc;
+    padding-left: 50px;
+}
+.lightBoxSP li ul li,
+.lightBoxSP li p{
+    font-size: 0.8em;
+}
+.lightBoxSP li ul li ul{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+.lightBoxSP li div.popup-img img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*  END popup css  */
+
+html[data-device-type="mobile"]  .span4.merchant-panel {
+     width: auto;
+     
+}
+
+@media only screen and (min-width: 1024px) {
+   .sticky-nav-panel b{
+      display: none;
+    }
+}
+
+html[data-device-type="portable"]  .editorial-cell, .editorial p {
+     width: auto;
+     
+}
+.editorial p {
+    width: 87%;
+}
+
+html[data-device-type="mobile"]  .span6.merchant-panel {
+     width: auto;
+     padding: 10px;
+}
+
+@media only screen and (max-width: 568px) {
+    .editorial p {
+    width: auto;
+}
+}
+
+
+@media only screen and (max-width: 900px) {
+    .ui-dialog{
+        width:auto !important;
+        left:20px !important;
+        right:20px !important;
+        top:50px !important;
+        position: absolute;
+    }  
+
+    .lightBoxSP{
+        width:100%;
+    }   
+
+    .lightBoxSP li div.popup-img img{
+        position: relative;
+        top: auto;
+        right: auto;
+    }   
+
+    .popup-img{
+        padding-top: 15px;
+    }
+}
+
+.mobile-modal {
+position: fixed !important;
+}
+
+.faq-section{padding: 30px 0;}
+
+.expanding span.ul-layout-accordion{
+     background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin: 0;
+    padding-left: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;        /* Opera/IE 8+ */
+                                    
+}
+
+.expanding span.ulacc-li{
+    display: block; 
+    margin:4px 0 0 0; 
+    height: auto; 
+    background: #fff; 
+    width:100%;
+    position: relative;
+}
+
+.expanding span.layout-div{
+    display: block; 
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+}
+
+.expanding span.layout-block-para{
+    display: block; 
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    padding: 0 0 20px 0;
+    text-align: left;    
+}
+
+.expanding span.ulacc-li:before{
+    content:'•'; 
+    position:absolute; 
+    left:-15px; 
+    top:0; 
+    display:block;
+}
+
+.expanding span.layout-block-para:last-child{
+    padding-bottom: 0;
+}
+
+.expanding span.layout-block-para span.layout-heading{
+    font-weight: bold;
+    display: block; 
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    padding: 0;
+    text-align: left;
+    
+}
+
+.expanding span.layout-group-heading{
+    display: block; 
+    padding: 0 0 4px 0;
+    height: auto; margin: 0;
+    background: #fff; 
+    width:100%;
+    text-align: left;
+}
+
+.accordion-heading {
+	overflow: hidden; 
+	display: block;
+}
+
+.span6.merchant-panel {
+height: auto;
+width: 43%;
+border: 1px solid #ccc;
+float: left;
+margin: 0 0 0 2%;
+padding: 2%;
+background: #fff;
+}
+
+.row-fluid .heroBtn, .hero-bg .hatch{ 
+    display: block;
+}
+
+.row-fluid .heroBtn {
+    display: none;
+}
+
+.contentList {
+    list-style-type: disc;
+    padding-left: 16px;
+}
+
+.contentList li {
+    margin-bottom: 10px;    
+}
+
+#custom-pullout .span8{
+    width: 80%;
+}
+
+#custom-pullout h2.pulloutHeadline {
+    margin: 0;
+}
+
+.hero-bg.row-fluid .span6 {
+    width: 52%;
+}
+p.tips {
+    padding-top: 4px;
+    padding-bottom: 14px;
+}
+
+table {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.span6.merchant-panel {
+    border: none;
+}
+
+.pullout {
+    padding: 55px 0;
+    border-top: 1px solid #ccc;
+}
+
+tr:nth-of-type(even), th {
+    background: #f5f5f5;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.custom-table table ul {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+.addon-list {
+    display: none;
+}
+

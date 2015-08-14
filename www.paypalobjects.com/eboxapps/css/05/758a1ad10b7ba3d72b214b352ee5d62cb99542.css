@@ -1,0 +1,487 @@
+/* page css */
+.hero-bg, .hero-bg.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/hero-images/Mobile-Commerce-hero.jpg");
+}
+
+.n2, .n2.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/feature-images/Mobile-Commerce-n1_1x.jpg");
+}
+.n3 {
+    background-image: url("../../../webstatic/en_AU/mktg/feature-images/mobile-commerce-n2_1x.png");
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url("../../../webstatic/en_AU/mktg/feature-images/Mobile-Commerce-n3_1x.jpg");
+}
+
+html[data-device-type="mobile"] .hero-hugger-spacer {
+    height: 0;
+}
+
+#hero .span12 > .editorial-cell {
+    width: 100%;
+}
+
+.merchant-heroTray .heroBtn {
+    width: 230px;
+    max-width: none;
+    line-height: 2.5em;
+}
+
+#hero-down-arrow {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin: -6px 0 0 -19px;
+}
+#get-started, #more-than-payments-container {
+    padding: 60px 0;
+}
+#get-started-carousel, #more-than-payments {
+    margin-top: 30px;
+}
+.merchant-links-bar {
+    text-align: right;
+    line-height: 46px;
+}
+.merchant-links {
+    padding-left: 20px;
+    font-weight: normal;
+}
+.merchant-links-panel {
+    padding: 20px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.merchant-links-panel .span6 {
+    line-height: 40px;
+}
+.light .span3.merchant-panel {
+    border-color: #fff;
+}
+.merchant-links-panel .btn {
+    line-height: 1.8em;
+    min-width: 235px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+html[data-device-type="portable"] .merchant-links-panel .btn {
+    -webkit-transition: all 0 ease 0;
+    transition: all 0 ease 0;
+}
+.floating-bar.on .btn {
+    opacity: 1;
+}
+ul.merchant-bullets {
+    margin-left: 15px;
+    list-style: disc;
+}
+.merchant-heroTray {
+    background-color: rgba(36, 29, 28, 0.8);
+    padding: 30px 30px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-width: 564px;
+}
+.row-fluid .merchant-panel {
+    background: #fff;
+    padding: 30px 16px;
+    border: 1px solid;
+    border-color: #E5E5E5 #D9D9D9 #CCC;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+}
+.row-fluid .disabledLink {
+    cursor: auto;
+}
+.disabledLink p:last-child {
+    padding: 0;
+}
+#get-started .merchant-panel .contentPara {
+    min-height: 113px;
+}
+#more-than-payments .merchant-panel .contentPara {
+    min-height: 70px;
+}
+.panel-img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+html[data-device-type="mobile"] .panel-img {
+    margin-bottom: 0;
+}
+
+.excite-bg {
+    background: transparent url(../../../webstatic/en_US/mktg/wright/merchant/video-bottom.jpg) center top no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+
+.merchant .expander {
+    display: none;
+}
+.merchant p {
+    line-height: 1.5em;
+}
+.merchant .btn {
+    margin: 26px 0;
+    line-height: 2.5em;
+    width: 92%;
+}
+.merchant h4 {
+    padding: 10px 0 0;
+}
+.merchant .transaction-tray p:first-child {
+    line-height: 2.5em;
+}
+.panel-three {
+    padding-top: 60px;
+}
+.panel-three a {
+    font-size: 14px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.panel-three .sideKickHeadline {
+    /* based off of four panel styles */
+    padding-bottom: 25px;
+}
+#signup-modal h4 {
+    margin: 20px 0;
+}
+#signup-modal .btn {
+    max-width: 46%;
+}
+#signup-modal ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+a {
+    font-size: initial;
+}
+html[data-device-type="mobile"] #signup-modal .btn {
+    max-width: none;
+    margin-bottom: 14px;
+}
+html[data-device-type="mobile"] #signup-modal ul {
+    margin-bottom: 14px;
+}
+html[data-device-type="portable"] .merchant-links-panel, html[data-device-type="mobile"] .merchant-links-panel {
+    background: #f4f4f4;
+    padding: 16px 0;
+}
+
+html[data-device-type="portable"] #get-started, html[data-device-type="portable"] #more-than-payments-container {
+    padding: 40px 0;
+}
+html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth .merchant-panel {
+    width: 90%;
+    min-height: 420px;
+    margin-left: 10px;
+}
+html[data-device-type="portable"] #get-started-carousel .merchant-panel {
+    margin-bottom: 30px;
+    min-height: 330px;
+}
+html[data-device-type="portable"] #more-than-payments .merchant-panel h3 {
+    min-height: 80px;
+}
+
+html[data-device-type="portable"] #get-started .merchant-panel .contentPara {
+    min-height: 100px;
+}
+html[data-device-type="portable"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 140px;
+}
+@media all and (max-width: 768px) {
+    html[data-device-type="portable"] #more-than-payments .merchant-panel h3, html[data-device-type="portable"] #more-than-payments .merchant-panel .contentPara {
+        min-height: 110px;
+    }
+}
+html[data-device-type="mobile"] .heroBtn {
+    margin: 0 auto 30px;
+}
+html[data-device-type="mobile"] #hero-down-arrow {
+    bottom: 4%;
+}
+html[data-device-type="mobile"] .merchant-links-panel .span6.pull-right {
+    width: auto;
+    float: none;
+}
+html[data-device-type="mobile"] .merchant-panel:first-child {
+    margin-left: 0;
+}
+html[data-device-type="mobile"] #more-than-payments .sideKickHeadline {
+    min-height: 72px;
+}
+html[data-device-type="mobile"] #more-than-payments-container {
+    padding-top: 20px;
+}
+html[data-device-type="mobile"] .pullout,  html[data-device-type="portable"] .pullout{
+    background: #0079c1;
+}
+html[data-device-type="mobile"] .pullout h2, html[data-device-type="portable"] .pullout h2 {
+    color: #fff;
+}
+html[data-device-type="mobile"] .excite-bg {
+    height: 501px;
+}
+html[data-device-type="mobile"] .excite-bg .editorial-cell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+html[data-device-type="mobile"] .panel-three {
+    padding-top: 0;
+}
+html[data-device-type="mobile"] .panel-three .sideKickHeadline {
+    margin-left: 10px;
+}
+html[data-device-type="mobile"] .excite-bg .editorial-container {
+    padding: 200px 0 0;
+    text-align: center;
+}
+html[data-device-type="mobile"] #get-started, html[data-device-type="mobile"] #more-than-payments-container {
+    padding: 40px 0 20px;
+}
+html[data-device-type="mobile"] #get-started-carousel, html[data-device-type="mobile"] #more-than-payments {
+    margin-top: 10px;
+}
+html[data-device-type="mobile"] .merchant .transaction-tray {
+    margin: 0;
+}
+html[data-device-type="mobile"] .merchant .phone-line {
+    margin-bottom: 20px;
+}
+html[data-device-type="mobile"] .merchant .btn {
+    width: 100%;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-right: 0;
+    padding-top: 0;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows h4, html[data-device-type="mobile"] .merchant .expanding-rows p {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows h4 {
+    padding-bottom: 10px;
+}
+html[data-device-type="mobile"] .merchant .expander {
+    position: relative;
+    display: block;
+    width: 21px;
+    height: 21px;
+    text-indent: -999em;
+    overflow: hidden;
+    border: 1px solid #4d4d4d;
+    border-radius: 14px;
+    float: right;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+html[data-device-type="mobile"] .merchant .expander:after {
+    content:'+';
+    display: block;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    font-size: 21px;
+    line-height: 16px;
+    text-align: center;
+    color: #4d4d4d;
+    top: 0;
+    left: 0;
+    text-indent: 0;
+}
+html[data-device-type="mobile"] .merchant .expander.open:after {
+    content:'–';
+}
+html[data-device-type="mobile"] .merchant .expandable {
+    height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+html[data-device-type="mobile"] #get-started .merchant-panel .contentPara {
+    min-height: 130px;
+}
+html[data-device-type="mobile"] #more-than-payments .merchant-panel .contentPara {
+    min-height: 110px;
+}
+html[data-device-type="mobile"] .merchant .expandable.open {
+    height: 50px;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows p.expandable {
+    border-bottom: 1px solid #4d4d4d;
+}
+html[data-device-type="mobile"] .merchant .expanding-rows:last-child p.expandable:last-child {
+    border-bottom: none;
+}
+
+.list-para {
+    list-style-type: decimal;
+    margin-left: 10%;
+}
+
+.n4.lightContent p {
+    color: #777;
+}
+
+.n4.lightContent h2 {
+    color: #444;
+}
+
+.callout b {
+    font-size: 24px;
+}
+
+.row-fluid .span8 {
+    width: 88%;
+}
+
+.merchant-panel a.contentLink {
+    min-height: 45px;
+}
+
+.row-fluid .merchant-panel {
+    padding: 30px 16px 15px;
+}
+
+#get-started-carousel .merchant-panel {
+    background: #f5f5f5;
+}
+
+
+.btn.heroBtn.span8 {
+    width: 54%;
+}
+
+#get-started, #more-than-payments-container {
+    background: #fff;
+}
+
+.foot-para {
+    margin: 15px 0 0;
+    font-size: 12px;
+}
+
+p.headline b {
+    font-size: 20px;
+    height: 65px;
+    width: 65px;
+}
+
+p.headline b strong {
+    display: block;
+    font-size: 37px;
+    font-weight: normal;
+    padding-bottom: 8px;
+    padding-top: 7px;
+}
+
+.center-text {
+    position: relative;
+}
+
+.sup {
+    font-size: 22px;
+    font-weight: normal;
+    position: absolute;
+    right: 23.5%;
+    top: 8px;
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    html[data-device-type="portable"] .row-fluid .offset1 {
+        margin-left: 3%;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+    .sup {
+        right: 18.6%;
+        top: 7px;
+    }   
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+    .sup {
+        right: 8.3%;
+        top: 6px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 568px) {
+    .sup {
+        right: 7%;
+        top: 3px;
+    }   
+}
+
+@media (orientation: landscape) and (max-width: 480px) {
+    .sup {
+        right: 43.5%;
+        top: 40px;
+    }   
+}
+
+
+@media (orientation: portrait) and (max-width: 320px) {
+    .sup {
+        right: 16.5%;
+        top: 41px;
+    }
+
+    #get-started-carousel .merchant-panel {
+        background: #f5f5f5;
+        min-height: 350px;
+    }
+}
+
+html[data-device-type="dedicated"] .hero-bg .containerCentered p {
+     width: 80% !important;
+}
+
+.pulloutPara {
+    font-size: 1.14286rem;
+    line-height: 1.5em;
+    padding-bottom: 9px;
+    padding-left: 0%;
+    padding-top: 25px;
+}
+.lightContent a {
+    display: none;
+}
+.lightContent a {
+    display: none;
+}    
+
+.callout b {
+    border: 1px solid #009cde;
+    border-radius: 50%;
+    color: #009cde;
+    display: block;
+    font-size: 3.42857rem;
+    font-weight: 100;
+    height: 60px;
+    letter-spacing: -0.02em;
+    line-height: 2.4em;
+    margin: 0 auto 0.333em;
+    padding: 29px;
+    width: 60px;
+}
+.callout b.small span.active-digital-wallets, 
+span.active-digital-wallets {
+    display: inline-block;
+    font-size: 3rem;
+}
+
