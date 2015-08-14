@@ -55,7 +55,7 @@
 
 		<div class="container" style="margin-bottom: -1.8%;">
 			<div class="row">
-				<img src="assets/img/paypal4.png" style="height:50px;margin-top: -7%;margin-left: -12px;"></img>
+				<img src="assets/img/paypal4.png" style="height:50px;margin-top: -7%;margin-left: -2%;width:10%;"></img>
 			</div>
 		</div>
 

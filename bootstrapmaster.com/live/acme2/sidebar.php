@@ -54,7 +54,7 @@
 					<ul class="nav nav-tabs nav-stacked main-menu">
 						<li><a href="dashboard.php"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm"> Dashboard</span></a></li>	
 						<li><a href="#"><i class="fa fa-dashboard"></i><span class="hidden-sm"> Orders</span></a></li>
-						<li><a href="finalcatalog.html"><i class="fa fa-lock"></i><span class="hidden-sm"> Catalog</span></a></li>
+						<li><a href="finalcatalog.php"><i class="fa fa-lock"></i><span class="hidden-sm"> Catalog</span></a></li>
 						<li><a href="#"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm"> Payments</span></a></li>	
 						<li><a href="#"><i class="fa fa-dashboard"></i><span class="hidden-sm"> Returns</span></a></li>
 						<li><a href="profile.php"><i class="fa fa-lock"></i><span class="hidden-sm">Profile</span></a></li>
